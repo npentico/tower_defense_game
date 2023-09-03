@@ -251,3 +251,1780 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1545.724361 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/6.png
+  artifactKey: Guid(c42f452d07d63d84092955ca6f9c904b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/6.png using Guid(c42f452d07d63d84092955ca6f9c904b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9a364e04f7de7a68bab272d6c501af4') in 0.047112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/16.png
+  artifactKey: Guid(fb4ce4de89633eb4da0a4fa0aaa4f0d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/16.png using Guid(fb4ce4de89633eb4da0a4fa0aaa4f0d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3309240ffd3173a193e9fa89fb64a7b9') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/44.png
+  artifactKey: Guid(00e7f28958acefd4c87ffdcda7b5aa15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/44.png using Guid(00e7f28958acefd4c87ffdcda7b5aa15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e85bf04f6f92fbcaf1bc39f93b5db78') in 0.018611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/game_background_2.png
+  artifactKey: Guid(7ad6c8fcaea71f24d8e30df8803a2a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/game_background_2.png using Guid(7ad6c8fcaea71f24d8e30df8803a2a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b296fd43d302ca907b8b6290b7be9d7e') in 0.017760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/40.png
+  artifactKey: Guid(3000bdc97a917944e8f5e045cc4ab208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/40.png using Guid(3000bdc97a917944e8f5e045cc4ab208) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5984e6857b0899603083a0a67ec00262') in 0.016491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/road_2.png
+  artifactKey: Guid(66d9b011a468917409afe3331095a53a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/road_2.png using Guid(66d9b011a468917409afe3331095a53a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4541be83867b2d629257d58200907c52') in 0.015440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/31.png
+  artifactKey: Guid(4da3cac601bc61a49ab7cfc6cb84471b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/31.png using Guid(4da3cac601bc61a49ab7cfc6cb84471b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a29d1ebbe0cdbdf3a8c50c2e7ec5369') in 0.019086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/12.png
+  artifactKey: Guid(402662d2a57cfb044bbbdf0dabcaea8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/12.png using Guid(402662d2a57cfb044bbbdf0dabcaea8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03927ef6167908b09b847244b6341c55') in 0.014691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/8.png
+  artifactKey: Guid(d51e1c60b43e3bf488dba495fab3037d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/8.png using Guid(d51e1c60b43e3bf488dba495fab3037d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb91a2be977fe743fa9792f6a91dfb65') in 0.016812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/4.png
+  artifactKey: Guid(d069fb64a774a004a81390df249efeb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/4.png using Guid(d069fb64a774a004a81390df249efeb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77510e772db3ea9fac68ffc4902608be') in 0.015884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/14.png
+  artifactKey: Guid(336e772ce19aa8f47b82ea486794a692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/14.png using Guid(336e772ce19aa8f47b82ea486794a692) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8c8599dd4276922a582e2a05ec22b4c') in 0.017758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/25.png
+  artifactKey: Guid(ba846f14a82ef434580522939a2370e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/25.png using Guid(ba846f14a82ef434580522939a2370e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '641a21a8121a7b5d88a7527428789914') in 0.015532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/9.png
+  artifactKey: Guid(a31b841854bcef24f9ff2462b76b3ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/9.png using Guid(a31b841854bcef24f9ff2462b76b3ada) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '980fda6cf81448397e58fe9059aaa14b') in 0.018098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/23.png
+  artifactKey: Guid(4d3ed51d1592013438cb5db07591b455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/23.png using Guid(4d3ed51d1592013438cb5db07591b455) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e03e0b6ce4744cfee050578cbfbec1d1') in 0.018183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_5.png
+  artifactKey: Guid(a81f45556afca694397df6ddbd2c8fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_5.png using Guid(a81f45556afca694397df6ddbd2c8fde) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d716be668e0c0ecb7bb9b06058a418d') in 0.025046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/19.png
+  artifactKey: Guid(492deaecbc4326545accbdea7f748d9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/19.png using Guid(492deaecbc4326545accbdea7f748d9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '617e74397de6583064a361f427945a4b') in 0.017238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/35.png
+  artifactKey: Guid(94f8f41ea67a20945afe7e51986cef6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/35.png using Guid(94f8f41ea67a20945afe7e51986cef6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a34da6538aff1d66351ce5ddea972fb') in 0.019817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/20.png
+  artifactKey: Guid(a4f758e99c26ff540bc8d27ba4c5e971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/20.png using Guid(a4f758e99c26ff540bc8d27ba4c5e971) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b76c450cd318de637d382a7ef85ca797') in 0.018930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/30.png
+  artifactKey: Guid(56f613ec875c2044daab4915323fa5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/30.png using Guid(56f613ec875c2044daab4915323fa5cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4f15805b3a1ac662a30e94206a81d49') in 0.018101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/17.png
+  artifactKey: Guid(c59c5e8e2efe34d458e2b79a8e31a3cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/17.png using Guid(c59c5e8e2efe34d458e2b79a8e31a3cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd567ed2375ce7ccd46abf9d1ea7d8672') in 0.017763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/12.png
+  artifactKey: Guid(0b7e426618b10414c9b810cd31d096be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/12.png using Guid(0b7e426618b10414c9b810cd31d096be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcae3bf49486ba58995a9a46ff11f27f') in 0.018189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers
+  artifactKey: Guid(462b32c611514cf49ae9e1a7daf8e56b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers using Guid(462b32c611514cf49ae9e1a7daf8e56b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1932893b771cbfc5c47ec48df52c583c') in 0.011651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/game_background_1.png
+  artifactKey: Guid(3a07667bd165b994bb708be9665260e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/game_background_1.png using Guid(3a07667bd165b994bb708be9665260e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '863b0a6470d6ca17c43e4ab8c0a25ad9') in 0.020610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/AI
+  artifactKey: Guid(5af176930dbd78a4cb16d11d4347121d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/AI using Guid(5af176930dbd78a4cb16d11d4347121d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '392ae46613a7a835272703099bc2acca') in 0.010627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI/tail_set_1.ai
+  artifactKey: Guid(0dfab4fb9e834cc42885459cefaef413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI/tail_set_1.ai using Guid(0dfab4fb9e834cc42885459cefaef413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1460249e4d8c62820efd52ab91669ab') in 0.010167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI/game_background_2.ai
+  artifactKey: Guid(017e987d14a27d740b6d389ed2ead198) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI/game_background_2.ai using Guid(017e987d14a27d740b6d389ed2ead198) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00a85ebb8ac13c52bc282e8ec31af09f') in 0.010437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/25.png
+  artifactKey: Guid(35b7d56bc1e91714b8700b236b214bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/25.png using Guid(35b7d56bc1e91714b8700b236b214bfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9fd57c40adf99b0d84b588621c9dd11') in 0.017871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/19.png
+  artifactKey: Guid(599ba67f70067ac44a599dd0e71477f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/19.png using Guid(599ba67f70067ac44a599dd0e71477f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1472a3e3d87ba4a4937c2046a0462d1') in 0.019113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/39.png
+  artifactKey: Guid(f111f19615a696f43beababa6ee29a06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/39.png using Guid(f111f19615a696f43beababa6ee29a06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e95557d453a89ec0bd52ea2f2209a442') in 0.020191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/1/road_6.png
+  artifactKey: Guid(8714a4f33a0e2f147b10e9d35355785e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/1/road_6.png using Guid(8714a4f33a0e2f147b10e9d35355785e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fc74c38daf678b58355535b8a45c77c') in 0.017939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/1.png
+  artifactKey: Guid(1ba00c986e4a2624c96501fe7473442c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/1.png using Guid(1ba00c986e4a2624c96501fe7473442c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '922a967b4c1d2e42c6d58cd24fcbee12') in 0.017093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/bush_2.png
+  artifactKey: Guid(083ce2e2e19288b4d969c8caec9f0ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/bush_2.png using Guid(083ce2e2e19288b4d969c8caec9f0ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebec50f1192139cc849dced4c8a63f93') in 0.019758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/road_9.png
+  artifactKey: Guid(ac1b44ff2bf3ff24faf730b74c8885bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/road_9.png using Guid(ac1b44ff2bf3ff24faf730b74c8885bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33ef6aa3aef11151a8ade2f005287023') in 0.015181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/28.png
+  artifactKey: Guid(72130e02a34de6941abc389f1ed42d3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/28.png using Guid(72130e02a34de6941abc389f1ed42d3f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24d9e91c14d9de42988a91c5ecb87de8') in 0.018425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/15.png
+  artifactKey: Guid(4b7be0857ee5fa84aa2a54182c0937f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/15.png using Guid(4b7be0857ee5fa84aa2a54182c0937f8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52957ffc8e7d8423ab37143f1b2bc057') in 0.018276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/road_5.png
+  artifactKey: Guid(da85a05950beeed4fbf2216d51307b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/road_5.png using Guid(da85a05950beeed4fbf2216d51307b90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec1005e7bfce3daf9c6a15e3eb1633d1') in 0.022666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/39.png
+  artifactKey: Guid(992b60f1edbbb8142b30c1fd36db8c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/39.png using Guid(992b60f1edbbb8142b30c1fd36db8c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5df55eb8e694fa208bce12fa98928ea') in 0.017086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/AI/game_background_4.ai
+  artifactKey: Guid(49be31676def6d94aa06ec80dc0e5500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/AI/game_background_4.ai using Guid(49be31676def6d94aa06ec80dc0e5500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0bc5fc92ad20b7e2eb3f95675f8edd1') in 0.010461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.016726 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/2.png
+  artifactKey: Guid(989a58c86754e964f86c2b9cb5062844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/2.png using Guid(989a58c86754e964f86c2b9cb5062844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd846267bbd0eea3153c2851baea56a4') in 0.017344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/43.png
+  artifactKey: Guid(2b933aa9e52bb714f9cbcb1e4482385f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/43.png using Guid(2b933aa9e52bb714f9cbcb1e4482385f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cb792183d7f80c1685d5d5a85da0951') in 0.015374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/5.png
+  artifactKey: Guid(dc0d30384021bb040b9f8d73e77a304f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/5.png using Guid(dc0d30384021bb040b9f8d73e77a304f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '569d833a063b34b5770d8df4da88f7f3') in 0.017529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/14.png
+  artifactKey: Guid(684b4eff13d11a2488a6d7e677edb3a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/14.png using Guid(684b4eff13d11a2488a6d7e677edb3a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23dcae6200efbdd200113c0739bed831') in 0.017679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1
+  artifactKey: Guid(47e7ae83e83fbb34693336dee161cab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1 using Guid(47e7ae83e83fbb34693336dee161cab5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8090ecdcb6b9775411dc44952f6f36cc') in 0.010987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/lake_2.png
+  artifactKey: Guid(990aa422871cdc34187d78f071b5fa12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/lake_2.png using Guid(990aa422871cdc34187d78f071b5fa12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '073beda3e42fc05f45a2812ce7134f43') in 0.017551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/21.png
+  artifactKey: Guid(dfc713b94b31d6a42a30f562bb3fb49d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/21.png using Guid(dfc713b94b31d6a42a30f562bb3fb49d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d4a3acb314578253fece449d26ef6a6') in 0.016785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/3.png
+  artifactKey: Guid(bb2f883c0e63d1f4e837910257cac2bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/3.png using Guid(bb2f883c0e63d1f4e837910257cac2bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6b62042e73c7175440c8bd1d6b700ce') in 0.016496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/30.png
+  artifactKey: Guid(0eae805afdb881a40a2f7c2a3a943a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/30.png using Guid(0eae805afdb881a40a2f7c2a3a943a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09818b6ec1faf77ff3d0ca1328c37d16') in 0.019390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/43.png
+  artifactKey: Guid(17192c7cb4f0d324dbc58b386e7c32e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/43.png using Guid(17192c7cb4f0d324dbc58b386e7c32e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '106fb74a996c4db59cac3dc6ba623e99') in 0.017762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/17.png
+  artifactKey: Guid(4ed57f45d850c9a42b36b7220012191e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/17.png using Guid(4ed57f45d850c9a42b36b7220012191e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fb0788030cd95284d50fcd08241fe96') in 0.018433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/37.png
+  artifactKey: Guid(5a60773b47bc56a45817790b7688588a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/37.png using Guid(5a60773b47bc56a45817790b7688588a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eadba9fe0e508ebb980556a851d0fba1') in 0.019400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/decor_5.png
+  artifactKey: Guid(93e293144e8f4714cbfa8a6d34c0a5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/decor_5.png using Guid(93e293144e8f4714cbfa8a6d34c0a5d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3a9acb0bc369256f094d56b05c1e6d7') in 0.020075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/tree.png
+  artifactKey: Guid(9d8de9f1f9bb31e4683e048d428abff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/tree.png using Guid(9d8de9f1f9bb31e4683e048d428abff7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '942b2fa547e782ccb4ac843f07489a75') in 0.018408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/EPS/tail_set_2.eps
+  artifactKey: Guid(6edb5813700806d44b858495e5caf645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/EPS/tail_set_2.eps using Guid(6edb5813700806d44b858495e5caf645) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1114ee58762b31248ed96f58f04dc065') in 0.010543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/decor_2.png
+  artifactKey: Guid(a0095f0b1682fc54b98f296337609531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/decor_2.png using Guid(a0095f0b1682fc54b98f296337609531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2df86e1f2e727bb4c049550bd326868') in 0.018440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/decor_3.png
+  artifactKey: Guid(9c8ac43f232234e4da85b3d2dd5ee3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/decor_3.png using Guid(9c8ac43f232234e4da85b3d2dd5ee3fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbcd5aade3722a62be5d4befb8e1fc66') in 0.020193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/24.png
+  artifactKey: Guid(b9f316c99a8be2042a1fe19ef44278c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/24.png using Guid(b9f316c99a8be2042a1fe19ef44278c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '312640163cbeb7aeb2a66664a247a90d') in 0.018945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/18.png
+  artifactKey: Guid(07d707fd1f397dc49ad023203ee7afd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/18.png using Guid(07d707fd1f397dc49ad023203ee7afd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba9b5941a89fbffcd4361f8cc0b7c558') in 0.018243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/29.png
+  artifactKey: Guid(ce692ebccf651434585b76495943c07f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/29.png using Guid(ce692ebccf651434585b76495943c07f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1503a0c4af16321572d6df85396e94ff') in 0.026126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/river_1.png
+  artifactKey: Guid(6d8cd7d744a5f3c41aa6eeaf155576d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/river_1.png using Guid(6d8cd7d744a5f3c41aa6eeaf155576d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df38bcbd4a4ce74e1ac2833bf72979f7') in 0.026559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/12.png
+  artifactKey: Guid(3d560e1cc39f1e9428b29466a7ef147a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/12.png using Guid(3d560e1cc39f1e9428b29466a7ef147a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f71c0cadd5ada3cf588556813d1a8bfa') in 0.017957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/road_10.png
+  artifactKey: Guid(e6ab4e45d8f2ef4429f5a04c00015f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/road_10.png using Guid(e6ab4e45d8f2ef4429f5a04c00015f30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7486a8a2704c637b4f6cabd853508605') in 0.018159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/AI
+  artifactKey: Guid(b7a9dc17ff936ce438df5d0c96845a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/AI using Guid(b7a9dc17ff936ce438df5d0c96845a01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1f86e99cd6b84735cbf408d454a1855') in 0.010827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/AI/game_background_3.ai
+  artifactKey: Guid(206801d86dc6b3145bce2623b0e33ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/AI/game_background_3.ai using Guid(206801d86dc6b3145bce2623b0e33ce0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0d103f228154649b3e9844646c28458') in 0.011440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/13.png
+  artifactKey: Guid(80b150bb833cdb04e8bd75b9fe2dab7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/13.png using Guid(80b150bb833cdb04e8bd75b9fe2dab7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63ce0c8cb823f2fc45358474278892c7') in 0.020723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/5.png
+  artifactKey: Guid(42c1bb6a5776e4e40b670948985f0a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/5.png using Guid(42c1bb6a5776e4e40b670948985f0a19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38b53d03926a7b2584af1b313dcf6184') in 0.019791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/13.png
+  artifactKey: Guid(9be49471f636c42478e80f8e29428ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/13.png using Guid(9be49471f636c42478e80f8e29428ed0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33a730c65476b188c31a47e9279e541a') in 0.017830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_5.png
+  artifactKey: Guid(27320ef4ef504a441a51697fdef805bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_5.png using Guid(27320ef4ef504a441a51697fdef805bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b65e13e5e660d596837536398a042da') in 0.019969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_7.png
+  artifactKey: Guid(5fb8d8014ea87a84fa8ac84ca845d488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_7.png using Guid(5fb8d8014ea87a84fa8ac84ca845d488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65780036d0e2cca8a370e0fbb4a669c2') in 0.019693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/dot.png
+  artifactKey: Guid(74b8253b5d19d094180ca6ab37c33a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/dot.png using Guid(74b8253b5d19d094180ca6ab37c33a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a53c1569c299ee3b31fb661a215f4c1') in 0.016640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/3/road_8.png
+  artifactKey: Guid(0b403cacfc313b749a188e37c841ed3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/3/road_8.png using Guid(0b403cacfc313b749a188e37c841ed3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba6e78191c5511d0b8dcb510ce28ee12') in 0.023269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/dot.png
+  artifactKey: Guid(7c3c9159c0ef6b64c80ef69b6e8efefd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/dot.png using Guid(7c3c9159c0ef6b64c80ef69b6e8efefd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '308e84362023cc959a38b57363ec39c5') in 0.021315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/34.png
+  artifactKey: Guid(d6d2ffc96cf534849ac515cee20b4719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/34.png using Guid(d6d2ffc96cf534849ac515cee20b4719) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a8d6587ea1229fbe1ac393d6b819d43') in 0.020514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/29.png
+  artifactKey: Guid(1995ed97deda76b449165099f5df4b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/29.png using Guid(1995ed97deda76b449165099f5df4b98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea253dc34a6d47b08e2191d08547359e') in 0.019022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/river_4.png
+  artifactKey: Guid(8fbb01b37f8758144a039f3e3f118acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/river_4.png using Guid(8fbb01b37f8758144a039f3e3f118acc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fb0ad5ae8425f6deb5e4892a82e38ee') in 0.021829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/road_5.png
+  artifactKey: Guid(b31ec36e13294a94e8a0dd5c667ea4c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/road_5.png using Guid(b31ec36e13294a94e8a0dd5c667ea4c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46856347be72b34a4d675d89195beba5') in 0.020594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/24.png
+  artifactKey: Guid(0b49f60189001a348ad742a484f6b552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/24.png using Guid(0b49f60189001a348ad742a484f6b552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc97581e6d2d7eb9b15912a06db2a818') in 0.019911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/54.png
+  artifactKey: Guid(2e261c3cc2e2cd645a1350faa5398354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/54.png using Guid(2e261c3cc2e2cd645a1350faa5398354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21b4ea769e3c9c2b8eae965c69b7af12') in 0.017914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/1/road_7.png
+  artifactKey: Guid(0a4240fc4ad15d44c903b599cdad46ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/1/road_7.png using Guid(0a4240fc4ad15d44c903b599cdad46ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ad2c245b8464a7b490663346dfe6f1b') in 0.016072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/decor_7.png
+  artifactKey: Guid(923812c90df4f204498faf6033f26e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/decor_7.png using Guid(923812c90df4f204498faf6033f26e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a10cbe045f56cef4adb6ed36df479bb7') in 0.028467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/3.png
+  artifactKey: Guid(6bb75cd53d416374f90bf1fb499882e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/3.png using Guid(6bb75cd53d416374f90bf1fb499882e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08779e958c8c13898e1e4d16c6572aa9') in 0.017238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/road_7.png
+  artifactKey: Guid(895442b26ed5d034ba2ee07454618d31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/road_7.png using Guid(895442b26ed5d034ba2ee07454618d31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72a67528295fc26d0ca5a437ea50e7f5') in 0.019061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/road_3.png
+  artifactKey: Guid(2a48e7e7754037a4ea6b1d1f11da9073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/road_3.png using Guid(2a48e7e7754037a4ea6b1d1f11da9073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91d9bb20672b4fbda33ae7ac833cfe29') in 0.017987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/decor_2.png
+  artifactKey: Guid(a6c7283973979e641b66d947903e9caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/decor_2.png using Guid(a6c7283973979e641b66d947903e9caa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8aa16cec06157e5db07006eb0bc5871') in 0.018510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/decor_6.png
+  artifactKey: Guid(277610008d8e8224d979216972130039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/decor_6.png using Guid(277610008d8e8224d979216972130039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd49537bd47580a87a6215ff817c262e4') in 0.017893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/43.png
+  artifactKey: Guid(e31a3e9eaf9c3ac45b1c59bbe052fa45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/43.png using Guid(e31a3e9eaf9c3ac45b1c59bbe052fa45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'faec6f691021fe0090ba6ec3a00e20e7') in 0.017597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/dot.png
+  artifactKey: Guid(f997714ae9d8c0542b2b94e950f100f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/dot.png using Guid(f997714ae9d8c0542b2b94e950f100f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2b063ee680461b79b49d7547d3bbedb') in 0.018665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/2/road_3.png
+  artifactKey: Guid(2acfa79689df5c54c99dbe058c38fb35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/2/road_3.png using Guid(2acfa79689df5c54c99dbe058c38fb35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdc82ffd6ed2551a9a6c0694e618a6aa') in 0.019477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/land.png
+  artifactKey: Guid(461e9756d511b1843a2d888d1eaa743b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/land.png using Guid(461e9756d511b1843a2d888d1eaa743b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccd2b64a8f24897e6a951e89a9a11fa0') in 0.021135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI
+  artifactKey: Guid(213a350476eb52f4b88d3b42590d65b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI using Guid(213a350476eb52f4b88d3b42590d65b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1790defc2f07b73db9d29837363ffc02') in 0.010437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/30.png
+  artifactKey: Guid(f49b5e2a1eec725479bebcb687a8280a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/30.png using Guid(f49b5e2a1eec725479bebcb687a8280a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1e79ba3c83b56c887f6d468b59ba216') in 0.016880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/river_6.png
+  artifactKey: Guid(6b6fcf1be64ee7743b53974be1ce1501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/river_6.png using Guid(6b6fcf1be64ee7743b53974be1ce1501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '403ad1abdf8bdcb3333b2c7369cf94e4') in 0.020896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers
+  artifactKey: Guid(92cad660cddf0b24bbde8fd1ec4536fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers using Guid(92cad660cddf0b24bbde8fd1ec4536fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74b280e731d813ecaebcfe688845198e') in 0.009538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/decor_1.png
+  artifactKey: Guid(cfd3ae6bf8c0031469f4c5c31018963e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/decor_1.png using Guid(cfd3ae6bf8c0031469f4c5c31018963e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bbab3e4781051afb9a67fb30743930b') in 0.018073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/29.png
+  artifactKey: Guid(d5ad35900395d9041969e0267d362a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/29.png using Guid(d5ad35900395d9041969e0267d362a95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae0e68adb41319aedff2a592589ace64') in 0.019789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/10.png
+  artifactKey: Guid(8eade380b87a8f243923756d3e59dd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/10.png using Guid(8eade380b87a8f243923756d3e59dd3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38b8385c037478b26ad2813256e89db3') in 0.020020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/decor_1.png
+  artifactKey: Guid(323398c5db3e28b489ba729a8053fe64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/decor_1.png using Guid(323398c5db3e28b489ba729a8053fe64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79a1f6cbc339665d21d167167e5f72d1') in 0.017156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/1.png
+  artifactKey: Guid(2a67ec679af48d84380e5ab93bdcacd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/1.png using Guid(2a67ec679af48d84380e5ab93bdcacd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77726632fe71daca56b5f37b86b89166') in 0.019385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/17.png
+  artifactKey: Guid(fc946161b554aba4faa41ccb2d7d9fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/17.png using Guid(fc946161b554aba4faa41ccb2d7d9fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28fa5659fc8ed3038191bdafd5777569') in 0.016321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/13.png
+  artifactKey: Guid(f828696927423fb44bf16e988f8a438f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/13.png using Guid(f828696927423fb44bf16e988f8a438f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba26add64234cc73bcdcd0a38600524b') in 0.021976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/23.png
+  artifactKey: Guid(f022e4d37400ce749b30df96211d022e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/23.png using Guid(f022e4d37400ce749b30df96211d022e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0d166b322aaeb02f581c0a9d6c21ebb') in 0.018704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/7.png
+  artifactKey: Guid(4ae026657942c4240bf5c45af65f5279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/7.png using Guid(4ae026657942c4240bf5c45af65f5279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59708eb3f15a049740b237fb0c7d80e5') in 0.020125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/26.png
+  artifactKey: Guid(6e402c0c93fdeae4abf9af8e0359fe33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/26.png using Guid(6e402c0c93fdeae4abf9af8e0359fe33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '006d3773fe742284f2873cccdc9a0404') in 0.022077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/decor_3.png
+  artifactKey: Guid(e4fff3de3d02e9440b2895ed73ec68d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/decor_3.png using Guid(e4fff3de3d02e9440b2895ed73ec68d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '452d5799a17b0bc3505f8aefce67db88') in 0.017037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/31.png
+  artifactKey: Guid(7571f492135f7a743809d2204d6e5fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/31.png using Guid(7571f492135f7a743809d2204d6e5fe7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ecfc51de51dd1d2b9a38c99e893af2f') in 0.017812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/19.png
+  artifactKey: Guid(50fc4d96dec1ba24a85a83acf4a5361d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/19.png using Guid(50fc4d96dec1ba24a85a83acf4a5361d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a127650a26126eed3dadf618fc7a8509') in 0.018369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/30.png
+  artifactKey: Guid(ca86c46ab8d651443b38ad784686e62c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/30.png using Guid(ca86c46ab8d651443b38ad784686e62c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95835b9a72a9d823d25c284615bdfaa3') in 0.020366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers
+  artifactKey: Guid(9916d9fd8e3fc74439a73beac81f95a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers using Guid(9916d9fd8e3fc74439a73beac81f95a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67bb4bcc4cef7f04da261b4649250fe2') in 0.012517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers
+  artifactKey: Guid(fcc68df07f20de345abf1040933ef090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers using Guid(fcc68df07f20de345abf1040933ef090) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '210344592cadf81a108bccae918269ec') in 0.012142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/47.png
+  artifactKey: Guid(80c094b03f25c7143821450a6d08e6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/47.png using Guid(80c094b03f25c7143821450a6d08e6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '710b6467607f42331466b692f1914946') in 0.018363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_7.png
+  artifactKey: Guid(d554f3109de2b74489ad7f438da03f7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_7.png using Guid(d554f3109de2b74489ad7f438da03f7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68b6f4a998671413ee3a579e78bdfa3e') in 0.015997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/42.png
+  artifactKey: Guid(0bb7005e8eab15a4587c5ec67d1bcaa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/42.png using Guid(0bb7005e8eab15a4587c5ec67d1bcaa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e94e3da4eba78cbd5c712fdfe59e9362') in 0.021955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/40.png
+  artifactKey: Guid(0ce4f2feece750c489bb76adc203436a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/40.png using Guid(0ce4f2feece750c489bb76adc203436a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0673f0c2ef3ef1272d29578db9da435b') in 0.023487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/river_6.png
+  artifactKey: Guid(27c102993f380ed4bb49f4fe08931659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/river_6.png using Guid(27c102993f380ed4bb49f4fe08931659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29ae9de97333165e7994f75d5b24a669') in 0.023393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/main_bg.png
+  artifactKey: Guid(b4e4e2fb4e5be6b4a8e120c575e55e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/main_bg.png using Guid(b4e4e2fb4e5be6b4a8e120c575e55e46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aaee59f3781b95b1858f50266fb458e') in 0.021171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/decor_1.png
+  artifactKey: Guid(249551c5a55518246901f7124d8b7b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/decor_1.png using Guid(249551c5a55518246901f7124d8b7b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad83a4005df8b82eed2eafb4d05465e4') in 0.021346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/1.png
+  artifactKey: Guid(a2af7325ce9b50a45ae43a44bd961aca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/1.png using Guid(a2af7325ce9b50a45ae43a44bd961aca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd75311cd1e466348355688f2a98f64a') in 0.022877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_2.png
+  artifactKey: Guid(d9d9c81adf915a648b21cf6555b9f0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_2.png using Guid(d9d9c81adf915a648b21cf6555b9f0d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '425ff5f23a498051d5f9b58c3a60ea78') in 0.021860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI/tail_set_2.ai
+  artifactKey: Guid(172bdead209441045bc118e14946cd63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/AI/tail_set_2.ai using Guid(172bdead209441045bc118e14946cd63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7c23836341772b1b728996dea838125') in 0.012547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled
+  artifactKey: Guid(7cea30753ead8274eb34af70fad5fc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled using Guid(7cea30753ead8274eb34af70fad5fc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fc1be60b121bd93a8982dfec7ebcfa') in 0.000472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/21.png
+  artifactKey: Guid(5c10e4ef30629f04a8c4a59c5e9c6e7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/21.png using Guid(5c10e4ef30629f04a8c4a59c5e9c6e7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e809aafe30f21159ad3f3102f0f6ebda') in 0.021583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/3/road_10.png
+  artifactKey: Guid(91352515f3f510d4eb181dbf60a5d1d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/3/road_10.png using Guid(91352515f3f510d4eb181dbf60a5d1d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '732dfd9d6d46e31bdbbb85c085b44137') in 0.019589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/23.png
+  artifactKey: Guid(03527eb4baa63d84fbd0edb2b97431d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/23.png using Guid(03527eb4baa63d84fbd0edb2b97431d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ba8cac660462fb76e481ce4421405b1') in 0.018230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1
+  artifactKey: Guid(89faacbec4b2b1b4cb8a559e1830f8c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1 using Guid(89faacbec4b2b1b4cb8a559e1830f8c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '593d0e31e37d20a5aa2fb46db28bc7cf') in 0.010238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/39.png
+  artifactKey: Guid(366229cdf88abd9439b7d62ccc0f476d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/39.png using Guid(366229cdf88abd9439b7d62ccc0f476d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c2314d633988175b6d41a5477df0753') in 0.017642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/decor_1.png
+  artifactKey: Guid(671d070fa39d4f14089d738c87754c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/decor_1.png using Guid(671d070fa39d4f14089d738c87754c35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b63b58cb9b4159fe0f57d114cff1a257') in 0.018204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/EPS/tail_set_1.eps
+  artifactKey: Guid(f9804ff1866d4bd4bbb681a06e76d9ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/EPS/tail_set_1.eps using Guid(f9804ff1866d4bd4bbb681a06e76d9ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '376af2089b6ddcfda40d1dbc10f31c0c') in 0.009624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/river_2.png
+  artifactKey: Guid(0fd6eda5bb724b945896c1bb52b0d608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/river_2.png using Guid(0fd6eda5bb724b945896c1bb52b0d608) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67a05d5f1d9fd70d58609378701bb2b6') in 0.018316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/35.png
+  artifactKey: Guid(3fa8798eba8a7814fbb83b504fe70aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/35.png using Guid(3fa8798eba8a7814fbb83b504fe70aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cf9c217bf963f91c75bf87ed7f40665') in 0.016796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2
+  artifactKey: Guid(31f2445b638380040b7e3ab3e205c274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2 using Guid(31f2445b638380040b7e3ab3e205c274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f05c3990b8fb3c6f24467ddaa2323e9') in 0.009954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/stone_1.png
+  artifactKey: Guid(51dfd567d8af336408ecd94470a184e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/stone_1.png using Guid(51dfd567d8af336408ecd94470a184e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5ce07f9e1b8ec56ba8db9c79777a34a') in 0.016832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/55.png
+  artifactKey: Guid(766513cfcc46db54abca685121a9f1f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/55.png using Guid(766513cfcc46db54abca685121a9f1f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5fae0a282dcdb93a746c1889167dfc0') in 0.020744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/land.png
+  artifactKey: Guid(d1db482cea639c74fb687aaa76a5e6d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/land.png using Guid(d1db482cea639c74fb687aaa76a5e6d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa2b83624b7eea9240300983053028d') in 0.016959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/EPS/game_background_3.eps
+  artifactKey: Guid(4d5e14fdd1e034d4fa40554660f3fea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/EPS/game_background_3.eps using Guid(4d5e14fdd1e034d4fa40554660f3fea4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0013572f5ef44feee294cd8e105a6e73') in 0.009541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/42.png
+  artifactKey: Guid(20bbeb7ce0dbee9468447831251ce354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/42.png using Guid(20bbeb7ce0dbee9468447831251ce354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60b4a266ebc42dc8328d697790adb1a2') in 0.015812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/2.png
+  artifactKey: Guid(cb4a9bc1ac9ff724e94a4b8c20b9de80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/2.png using Guid(cb4a9bc1ac9ff724e94a4b8c20b9de80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '898d61ea9748e930859d42e5902d84fc') in 0.015644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/19.png
+  artifactKey: Guid(613d9c7ae7e0be64aa2d6dbead4501dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/19.png using Guid(613d9c7ae7e0be64aa2d6dbead4501dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '426096cbcfd1770d69e6f2320130008f') in 0.016328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers
+  artifactKey: Guid(55b45b50083c46a43be246c4aa664e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers using Guid(55b45b50083c46a43be246c4aa664e84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a784e4f16823fcc7a43891c6d01df48d') in 0.008809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/31.png
+  artifactKey: Guid(5fdb58c05ca0fb34d89650a64d9066f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/31.png using Guid(5fdb58c05ca0fb34d89650a64d9066f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a99c7cca6099ae46abc3a268e7cd0134') in 0.018685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/10.png
+  artifactKey: Guid(9d92b2255e3281f4c9339e9fb961886a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/10.png using Guid(9d92b2255e3281f4c9339e9fb961886a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b1f343508c9fc6ce66755d7eab7fe18') in 0.018385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/6.png
+  artifactKey: Guid(9cf48cb0230ebb9408ed38fd5da5608c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/6.png using Guid(9cf48cb0230ebb9408ed38fd5da5608c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bd8904144377ca9f2db0e0fd9de491a') in 0.018656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.149680 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/7.png
+  artifactKey: Guid(384db9427e29af6439f2de34506c503e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/7.png using Guid(384db9427e29af6439f2de34506c503e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac0b4579aa325f177377bfb856ed8b2f') in 0.016928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/39.png
+  artifactKey: Guid(98e43e19cd5e7e5498c793277f5e5926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/39.png using Guid(98e43e19cd5e7e5498c793277f5e5926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e0eb627c5322a50cee9c5167163ebef') in 0.017304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_2.png
+  artifactKey: Guid(7c6cf684fc413e243a9632de7480ce6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_2.png using Guid(7c6cf684fc413e243a9632de7480ce6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba6651ba276207fe7ffe707befaa2189') in 0.015144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/41.png
+  artifactKey: Guid(79e598fa65bebe64e80bd61e6848a012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/41.png using Guid(79e598fa65bebe64e80bd61e6848a012) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a175629ca99ca63a9f1bcb23dacabad') in 0.016353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/stone.png
+  artifactKey: Guid(0d71210811ad8ab4c85af772c1b8adc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/stone.png using Guid(0d71210811ad8ab4c85af772c1b8adc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfc21a0803252ff309479fdeda568050') in 0.016248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6
+  artifactKey: Guid(da5d527d83ddf864c96ba0f2515f995e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6 using Guid(da5d527d83ddf864c96ba0f2515f995e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3035cf843c1b71ade6c1fb06a9db5d34') in 0.008411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/tree_1.png
+  artifactKey: Guid(40b6947d9de08d9448fcc688e7e2cf00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_1/layers/tree_1.png using Guid(40b6947d9de08d9448fcc688e7e2cf00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acd33fecff24010fc9569e66c61d9c45') in 0.017771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3
+  artifactKey: Guid(dc672042489a94e4a9bc4ffa0e109c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3 using Guid(dc672042489a94e4a9bc4ffa0e109c03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a91bc7317c8590d25714c69e8f7ec3d9') in 0.009196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/EPS/game_background_4.eps
+  artifactKey: Guid(ca4f36d54c5397047ae833b86a53ce25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/EPS/game_background_4.eps using Guid(ca4f36d54c5397047ae833b86a53ce25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90e1b534a875208a7b6acf34c2f2e85a') in 0.010926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/41.png
+  artifactKey: Guid(04b8f7d0f7f0bab44b2af1c05a9b9f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/41.png using Guid(04b8f7d0f7f0bab44b2af1c05a9b9f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0267e55b3569048855a27f2f2fd84a2b') in 0.020845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/56.png
+  artifactKey: Guid(f312ba86b6734124b97c6f4a9167d0cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/56.png using Guid(f312ba86b6734124b97c6f4a9167d0cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bb0c68f64bc1f3c36a64327a2fca6ed') in 0.015104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/AI/tail_set_1.ai
+  artifactKey: Guid(8d54215f1d0ae5a42962818cfe213b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/AI/tail_set_1.ai using Guid(8d54215f1d0ae5a42962818cfe213b62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46690425a79a5546a8922b634bda38a1') in 0.010064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/47.png
+  artifactKey: Guid(44fcf6e829b94434dbe998ceac2310b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/47.png using Guid(44fcf6e829b94434dbe998ceac2310b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3d2daf82adac5239528fdce02db2181') in 0.015892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/EPS/game_background_1.eps
+  artifactKey: Guid(7373d509fa99107449f16af705b000ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/EPS/game_background_1.eps using Guid(7373d509fa99107449f16af705b000ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '880faf1a49219b4d269a9f26c3c3d43e') in 0.010451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/45.png
+  artifactKey: Guid(9012dacf4ade5274bbe7496734cb2dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/45.png using Guid(9012dacf4ade5274bbe7496734cb2dfc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39a14810d136116013c53ad03f2bec4a') in 0.022084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/game_background_4.png
+  artifactKey: Guid(837ae14c7aa17454eb83a7931a59f188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/game_background_4.png using Guid(837ae14c7aa17454eb83a7931a59f188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03ed090adbdd5a64295ce943ff6eff96') in 0.022327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/road_2.png
+  artifactKey: Guid(071229c4412bb8743b626c32bc0d6710) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/road_2.png using Guid(071229c4412bb8743b626c32bc0d6710) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74e498d67a035b425e2624f133d766d6') in 0.018688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.143584 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/19.png
+  artifactKey: Guid(5527cbd764a259a4caad5c9b26b478dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/19.png using Guid(5527cbd764a259a4caad5c9b26b478dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1442ec197521d6d00355769ed057dd62') in 0.017445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/23.png
+  artifactKey: Guid(1e05942a538c6ea4aac86b1f268f65ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/23.png using Guid(1e05942a538c6ea4aac86b1f268f65ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16a518367e16226f3e2f58cc5a1cc251') in 0.021469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/18.png
+  artifactKey: Guid(e714c38f4135e804a919dd7dd1ad8621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/18.png using Guid(e714c38f4135e804a919dd7dd1ad8621) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a024754421fa4846d13639c7f3e508ec') in 0.024801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1
+  artifactKey: Guid(5b6352d61f85cee418edcd43953d7256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1 using Guid(5b6352d61f85cee418edcd43953d7256) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9cfe3537f9e7cbf0249e419e3fae6c1') in 0.008902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/4.png
+  artifactKey: Guid(51984935c8bc5124dbbb990f5e5df2fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/4.png using Guid(51984935c8bc5124dbbb990f5e5df2fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edd70d39ee295073bf542251f6b8185e') in 0.014828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/10.png
+  artifactKey: Guid(5be385d3b8866b5428ec05cd59b4c47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/10.png using Guid(5be385d3b8866b5428ec05cd59b4c47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68e8a222f9ba8fe0edc605936c34fec8') in 0.018440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/34.png
+  artifactKey: Guid(129ae932d94114f49959e59a4adbeb3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/34.png using Guid(129ae932d94114f49959e59a4adbeb3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ff1e02c699202f4eedf3d70991159fe') in 0.017555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/21.png
+  artifactKey: Guid(a36760e6baf8a1942a3fb0e50df74b41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/21.png using Guid(a36760e6baf8a1942a3fb0e50df74b41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '222db4d639702e7c1243af26abdb95c7') in 0.016172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/road_7.png
+  artifactKey: Guid(ca0e4b9902858584196a4d04e5da1577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/road_7.png using Guid(ca0e4b9902858584196a4d04e5da1577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '04ce39a7275f034d8b4091b049c51f32') in 0.015781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/river_5.png
+  artifactKey: Guid(84ef456334cbb9d40931baed83fef549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/river_5.png using Guid(84ef456334cbb9d40931baed83fef549) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87a4e6e2de7e6aa728f792243cda3d95') in 0.018207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/27.png
+  artifactKey: Guid(1338a506cd65ae34a9630b6e05876d9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/27.png using Guid(1338a506cd65ae34a9630b6e05876d9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6ed395193382a6a6f8aea898c290672') in 0.016735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/28.png
+  artifactKey: Guid(aba046f3e267ef24ba42328bbaca298a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/28.png using Guid(aba046f3e267ef24ba42328bbaca298a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf1fb3bca9ddeaeef83c6e4fb894c15a') in 0.017935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/15.png
+  artifactKey: Guid(8fc46bbf7b8d1f1408d5a82fe11068af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_6/15.png using Guid(8fc46bbf7b8d1f1408d5a82fe11068af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da3b5e5bc9cd4b9ce2467e1f5a32de49') in 0.017655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/land.png
+  artifactKey: Guid(0659594ed1421fc408beca3f23d942a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/land.png using Guid(0659594ed1421fc408beca3f23d942a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed3d245dd974d80a412c6e29fa0ff8cc') in 0.015979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/stone.png
+  artifactKey: Guid(5fedfe9644ba87e42a538d8135562b8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/stone.png using Guid(5fedfe9644ba87e42a538d8135562b8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da442acac60fdce19f8190cb2cc2cad5') in 0.015423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/fence.png
+  artifactKey: Guid(5f89d33146032054084257400d534d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/fence.png using Guid(5f89d33146032054084257400d534d74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d314cb44dc9c91ec99a2b7217c0f937') in 0.016547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_6.png
+  artifactKey: Guid(dc77365424af80041b82adf611d7575f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_6.png using Guid(dc77365424af80041b82adf611d7575f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '987c643114ea1ab59a69248b945aeebe') in 0.015982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/39.png
+  artifactKey: Guid(e8bea035cb229784abf4426617106184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/39.png using Guid(e8bea035cb229784abf4426617106184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83c47834d08ffda96fc7534c714fd757') in 0.018436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/3.png
+  artifactKey: Guid(43e66b5e87d2217459dae32559edcfd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_1/3.png using Guid(43e66b5e87d2217459dae32559edcfd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd72729c8fc3e5fd3e062662308a5c75f') in 0.014564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/37.png
+  artifactKey: Guid(41bbf161fd9983148b3a151f1be5defc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/37.png using Guid(41bbf161fd9983148b3a151f1be5defc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cad28e3525abb56e01e0264460c3b798') in 0.015481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/3.png
+  artifactKey: Guid(518322f9ed4cab344af5e619edc536c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/3.png using Guid(518322f9ed4cab344af5e619edc536c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18de534d071833189bc92f9e47b7b632') in 0.015544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/decor_1.png
+  artifactKey: Guid(1f2f162ddc4edca4cb88b445c75af6a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_1/layers/decor_1.png using Guid(1f2f162ddc4edca4cb88b445c75af6a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5aabd38d50e5e0a6ec42740a432e592') in 0.017160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/river_3.png
+  artifactKey: Guid(fb6b82cd92c76c04d9078e942fabf01f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_3/layers/river_3.png using Guid(fb6b82cd92c76c04d9078e942fabf01f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35028409d88ee1c013508e7dc4dff952') in 0.016177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_6.png
+  artifactKey: Guid(95d96b6d0a5c8044c95285d763984755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/4/road_6.png using Guid(95d96b6d0a5c8044c95285d763984755) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08de5d34dc9d0a0714e639a1164b95f2') in 0.015992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/11.png
+  artifactKey: Guid(38bafef26bb8fd14fb37d34535632bc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/11.png using Guid(38bafef26bb8fd14fb37d34535632bc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34b236a3e176934fae0fb52740ed174c') in 0.015444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/23.png
+  artifactKey: Guid(ffbb952f9a9b0e64fbec64b4a467c2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/23.png using Guid(ffbb952f9a9b0e64fbec64b4a467c2ec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a0b88baeacca93c862eabf4fba2b10f') in 0.016487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/33.png
+  artifactKey: Guid(9dfc9e01d1ef65e47ac9dcca9ebd650a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/33.png using Guid(9dfc9e01d1ef65e47ac9dcca9ebd650a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc33b8ed26e8c46a207ae05a872f6f88') in 0.018438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/river_5.png
+  artifactKey: Guid(4f44e7fda324f154babb2b9fdcb069b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_3/layers/river_5.png using Guid(4f44e7fda324f154babb2b9fdcb069b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37553d9a74fcf6bf65d014d8d5c4e9a2') in 0.020130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/road_3.png
+  artifactKey: Guid(48a16a1c1f7821245b39d423e3fc8b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_2/layers/road_3.png using Guid(48a16a1c1f7821245b39d423e3fc8b68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e98e5e7b62849f2e28449ce5a9e0a703') in 0.019517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/stone.png
+  artifactKey: Guid(6085f7a89255d9143ae526f67fae1e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/PNG/game_background_4/layers/stone.png using Guid(6085f7a89255d9143ae526f67fae1e51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b206b842ec0666a79006035839436e7') in 0.021737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/46.png
+  artifactKey: Guid(ad43d8eaf868f894f871bb7ab0d5a5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_8/46.png using Guid(ad43d8eaf868f894f871bb7ab0d5a5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f6c29cb78e9d9f8a95370c38dd1d827') in 0.018037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_1.png
+  artifactKey: Guid(881c6b608a7c6c74ab5a4220bcef494b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_2/layers/stone_1.png using Guid(881c6b608a7c6c74ab5a4220bcef494b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a33b0893a02efca37838e97efb5c8558') in 0.018579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/15.png
+  artifactKey: Guid(49d9bdb5c3751384aaf252a57b149ab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_7/15.png using Guid(49d9bdb5c3751384aaf252a57b149ab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68fb9ad631674adee2235fbb60e35cbd') in 0.016875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/35.png
+  artifactKey: Guid(8d7bfc305fb92b54fbe158740bfacb45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_2/35.png using Guid(8d7bfc305fb92b54fbe158740bfacb45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2759018df649e6a671bbbe33ca50c96a') in 0.016945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/lake_3.png
+  artifactKey: Guid(84a43db78ea080a47acba8e45826c5d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tile-set-pack-2/PNG/game_background_4/layers/lake_3.png using Guid(84a43db78ea080a47acba8e45826c5d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd144678a61e6bb2fd7b9d44cab5861b6') in 0.014731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/2.png
+  artifactKey: Guid(53d4ada114993864b9af24a4616bbb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_3/2.png using Guid(53d4ada114993864b9af24a4616bbb3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd67b8c08f1e372ffe56f4d7a2a6cabc6') in 0.015437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/33.png
+  artifactKey: Guid(53cf207f7a600ad4982acde238bbf37d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_5/33.png using Guid(53cf207f7a600ad4982acde238bbf37d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5ce8cf6b749e5adbb05c12a5b197e1e') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/tower-defense-game-tilesets/AI/tail_set_2.ai
+  artifactKey: Guid(c8b81753fe9b4f0418060dbfdee9cdda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/tower-defense-game-tilesets/AI/tail_set_2.ai using Guid(c8b81753fe9b4f0418060dbfdee9cdda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05ac74f8f13e8c8290d2cf224111415c') in 0.008538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/26.png
+  artifactKey: Guid(66ee4bb4d54ed0f41a756e6b3d665b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled/PNG/tail_4/26.png using Guid(66ee4bb4d54ed0f41a756e6b3d665b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9ad175ebbf0a562c0a7d0badebdede3') in 0.014992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/td-tilesets/version-for-the-program-Tiled
+  artifactKey: Guid(7cea30753ead8274eb34af70fad5fc1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/td-tilesets/version-for-the-program-Tiled using Guid(7cea30753ead8274eb34af70fad5fc1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6f524bcbc4c97d2e34caed6c0ccc742') in 0.008299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
