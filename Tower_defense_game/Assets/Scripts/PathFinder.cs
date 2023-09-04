@@ -15,9 +15,7 @@ public class PathFinder : MonoBehaviour
         waypoints= waveConfig.GetWaypoints();
         transform.position = waypoints[waypointIndex].position;
         unit = GetComponent<Enemy>();
-        foreach(Transform myTransform in waypoints){
-            Debug.Log(myTransform);
-        }
+      
 
     }
     void Update(){
@@ -37,7 +35,7 @@ public class PathFinder : MonoBehaviour
                 waypointIndex++;
                targetPosition = waypoints[waypointIndex].position;
                  LookAtNextWaypoint(targetPosition);
-                Debug.Log("moving towards " + waypoints[waypointIndex]);
+                
             }
         }
         else{
