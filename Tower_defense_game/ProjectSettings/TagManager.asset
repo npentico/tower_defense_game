@@ -50,3 +50,6 @@ TagManager:
   - name: road
     uniqueID: 1565644535
     locked: 0
+  - name: Enemies
+    uniqueID: 564043107
+    locked: 0
