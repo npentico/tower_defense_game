@@ -10,7 +10,7 @@ public class PathFinder : MonoBehaviour
 
     List<Transform> waypoints;
     [SerializeField] int waypointIndex = 0;
-    float speed =1f;
+  
     void Start(){
         waypoints= waveConfig.GetWaypoints();
         transform.position = waypoints[waypointIndex].position;
@@ -33,8 +33,12 @@ public class PathFinder : MonoBehaviour
             if(transform.position == targetPosition){
                 
                 waypointIndex++;
-               targetPosition = waypoints[waypointIndex].position;
-                 LookAtNextWaypoint(targetPosition);
+                if(waypointIndex < waypoints.Count){
+                     targetPosition = waypoints[waypointIndex].position;
+                    LookAtNextWaypoint(targetPosition);
+                }
+              
+                 
                 
             }
         }
@@ -46,11 +50,13 @@ public class PathFinder : MonoBehaviour
 
     void LookAtNextWaypoint(Vector3 targetPosition){
     //if the waypoint is to the right look right
+    Vector3 scale = unit.getInitialScale();
        if(targetPosition.x > transform.position.x){
-         transform.localScale= new Vector3(1,1,1);
+         transform.localScale= scale;
        }
        else{
-        transform.localScale= new Vector3(-1,1,1);
+        scale.x = -1* scale.x;
+        transform.localScale= scale;
        }
        //else look left
 

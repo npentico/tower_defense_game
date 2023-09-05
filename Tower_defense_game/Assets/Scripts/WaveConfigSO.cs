@@ -7,15 +7,11 @@ using UnityEngine;
 public class WaveConfigSO : ScriptableObject
 {
     [SerializeField] Transform pathPrefab;
-    [SerializeField] float moveSpeed = 5f;
     [SerializeField] List<GameObject>enemyPrefabs;
     [SerializeField] float timeBetweenEnemySpawns = 1f;
 
     [SerializeField] float spawnTimeVariance =0f;
     [SerializeField] float minimumSpawnTime = 0.2f;
-     public float getMoveSpeed(){
-        return moveSpeed;
-    }
 
     public Transform getStartingWaypoint(){
         return pathPrefab.GetChild(0);
