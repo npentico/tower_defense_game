@@ -53,6 +53,7 @@ public class EnemySpawner : MonoBehaviour
             Instantiate(currentWave.GetEnemyPrefab(i), currentWave.getStartingWaypoint().position, Quaternion.identity, transform);
             yield return new WaitForSeconds(currentWave.GetRandomSpawnTime());
         }
+        GameManager.instance.AddGold(currentWave.GetGoldValue());
         waveIndex++;
     }
 

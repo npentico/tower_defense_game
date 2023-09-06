@@ -12,6 +12,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] int Health = 15;
     bool GotHurt = false;
     [SerializeField] float ColorFlickerTime = 0.1f;
+
+    [SerializeField] int GoldValue = 1;
     Animator myAnimator;
     Vector3 initialScale;
     void Awake(){
@@ -47,6 +49,7 @@ public class Enemy : MonoBehaviour
         }
     }
     void KillUnit(){
+        GameManager.instance.AddGold(GoldValue);
         Destroy(gameObject);
     }
 
