@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if(other.tag == "Projectile"){
             //take damage
-            Debug.Log("Take a hit");
+          
             DoDamage(other.GetComponent<Projectile>().GetDamage());
             Destroy(other.gameObject);
         }
@@ -50,6 +50,7 @@ public class Enemy : MonoBehaviour
     }
     void KillUnit(){
         GameManager.instance.AddGold(GoldValue);
+        UiManager.instance.SetGoldText(GameManager.instance.GetGold().ToString());
         Destroy(gameObject);
     }
 

@@ -11,17 +11,49 @@ public class UiManager : MonoBehaviour
 
     public static UiManager instance;
 
-    void Awake(){
-        if(instance!=null){
+    [SerializeField] TextMeshProUGUI healthText;
+    [SerializeField] TextMeshProUGUI goldText;
+
+
+
+    void Awake()
+    {
+        if (instance != null)
+        {
             Destroy(gameObject);
         }
-        else{
+        else
+        {
             instance = this;
         }
     }
 
-    public void SetTimerText(float time){
-        string timerTime = (Mathf.Floor(time)+1).ToString();
+    void Start(){
+        SetGoldText(GameManager.instance.GetGold().ToString());
+        SetHealthText(GameManager.instance.GetHealth().ToString());
+    }
+
+    public void SetTimerText(float time)
+    {
+        string timerTime = (Mathf.Floor(time) + 1).ToString();
         TimerTextObj.text = timerTime;
     }
+
+    public void ConstructorTowerWasClicked(GameObject constructor)
+    {
+        Construction myConstructorTower = constructor.GetComponent<Construction>();
+        Debug.Log(myConstructorTower.getTowers());
+    }
+
+    public void ConstructorUIButtonClicked(){
+        Debug.Log("CLICKED UI BUTTON");
+    }
+
+    public void SetHealthText(string newHealthText){
+        healthText.text = newHealthText;
+    }
+    public void SetGoldText(string newGoldText){
+        goldText.text = newGoldText;
+    }
+    
 }

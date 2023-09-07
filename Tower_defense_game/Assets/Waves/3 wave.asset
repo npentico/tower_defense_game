@@ -20,3 +20,4 @@ MonoBehaviour:
   timeBetweenEnemySpawns: 0.5
   spawnTimeVariance: 0.1
   minimumSpawnTime: 0.5
+  WaveGoldValue: 0

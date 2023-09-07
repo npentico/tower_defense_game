@@ -53,7 +53,6 @@ public class TowerScript : MonoBehaviour
 
     void FireTurretShot(){
 
-        Debug.Log("Firing");
        GameObject projectile = Instantiate(projectilePrefab,weapon.transform.position, Quaternion.identity);  
        projectile.GetComponent<Projectile>().SetTarget(currentEnemy.transform.position); 
 
@@ -67,6 +66,10 @@ public class TowerScript : MonoBehaviour
     public void HideRangeIndicator(){
          GameObject rangeIndicator = transform.Find("Range").gameObject;
         rangeIndicator.GetComponent<SpriteRenderer>().enabled = false;
+    }
+
+    public TowerStats GetTowerStats(){
+        return myStats;
     }
 
 
