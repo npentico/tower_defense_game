@@ -12,8 +12,10 @@ public class PathFinder : MonoBehaviour
     [SerializeField] int waypointIndex = 0;
   
     void Start(){
+        
         waypoints= waveConfig.GetWaypoints();
         transform.position = waypoints[waypointIndex].position;
+
         unit = GetComponent<Enemy>();
       
 
@@ -59,6 +61,11 @@ public class PathFinder : MonoBehaviour
         transform.localScale= scale;
        }
        //else look left
+
+    }
+
+    public void SetWaveConfig(WaveConfigSO currentWave){
+        waveConfig=currentWave;
 
     }
     

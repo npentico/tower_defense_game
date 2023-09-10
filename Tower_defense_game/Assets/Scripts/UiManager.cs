@@ -39,6 +39,10 @@ public class UiManager : MonoBehaviour
         TimerTextObj.text = timerTime;
     }
 
+    public void SetTimerText(string time){
+        TimerTextObj.text = time;
+    }
+
     public void ConstructorTowerWasClicked(GameObject constructor)
     {
         Construction myConstructorTower = constructor.GetComponent<Construction>();
@@ -54,6 +58,15 @@ public class UiManager : MonoBehaviour
     }
     public void SetGoldText(string newGoldText){
         goldText.text = newGoldText;
+    }
+    public void DisableTimerText(){
+        TimerTextObj.gameObject.SetActive(false);
+    }
+    public void EnableTimerText(){
+        TimerTextObj.gameObject.SetActive(true);
+    }
+    public void UpdateHealthText(){
+        healthText.text = GameManager.instance.GetHealth().ToString();
     }
     
 }

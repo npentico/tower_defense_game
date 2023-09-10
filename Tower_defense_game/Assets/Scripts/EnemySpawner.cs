@@ -8,14 +8,23 @@ public class EnemySpawner : MonoBehaviour
     WaveConfigSO currentWave;
     int waveIndex = 0;
     bool enemiesAlive = false;
+    bool WaveIsSpawning = false;
+
+    [SerializeField] bool allWavesSpawned = false;
+
+
 
     [SerializeField] float timeBetweenWaves = 5f;
     [SerializeField] float timer = 2f;
 
     void Update()
     {
-        timer -= Time.deltaTime;
+        //timer should only count down once wave finishes spawning now.
+        if(!WaveIsSpawning){
+            timer -= Time.deltaTime;
+        }
         UiManager.instance.SetTimerText(timer);
+        
         if (transform.childCount > 0)
         {
             enemiesAlive = true;
@@ -30,6 +39,9 @@ public class EnemySpawner : MonoBehaviour
         {
             timer = timeBetweenWaves;
             StartWaveSpawns();
+        }
+        if(allWavesSpawned && !enemiesAlive){
+           
         }
 
 
@@ -48,13 +60,29 @@ public class EnemySpawner : MonoBehaviour
     IEnumerator SpawnWave()
     {
         currentWave = wavesToSpawn[waveIndex];
+        UiManager.instance.DisableTimerText();
+       
+        WaveIsSpawning = true;
         for (int i = 0; i < currentWave.GetEnemyCount(); i++)
         {
-            Instantiate(currentWave.GetEnemyPrefab(i), currentWave.getStartingWaypoint().position, Quaternion.identity, transform);
+            GameObject enemy = Instantiate(currentWave.GetEnemyPrefab(i), currentWave.getStartingWaypoint().position, Quaternion.identity, transform);
+            enemy.GetComponent<PathFinder>().SetWaveConfig(currentWave);
+            
+            
             yield return new WaitForSeconds(currentWave.GetRandomSpawnTime());
         }
-        GameManager.instance.AddGold(currentWave.GetGoldValue());
-        waveIndex++;
+      //  GameManager.instance.AddGold(currentWave.GetGoldValue());
+      waveIndex++;
+      WaveIsSpawning = false;
+      if(waveIndex < wavesToSpawn.Count){
+        UiManager.instance.EnableTimerText();
+        
+      }
+      else{
+        allWavesSpawned = true;
+      }
+      
+        
     }
 
 
