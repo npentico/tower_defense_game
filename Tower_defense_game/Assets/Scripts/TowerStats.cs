@@ -12,12 +12,18 @@ public class TowerStats : ScriptableObject
 
      [TextArea][SerializeField] string description;
 
+     [SerializeField] AudioClip towerConstruction;
+
      public float getReloadTime(){return reloadTime;}
      public float getDamage(){return damage;}   
      public int getPurchaseCost(){return purchaseCost;}
      public string getDescription(){return description;}  
 
      public Sprite GetSprite(){return towerSprite;}
+
+     public AudioClip getConstructionSound(){
+        return towerConstruction;
+     }
 
 
 }

@@ -78,6 +78,7 @@ public class Construction : MonoBehaviour
            Instantiate(towerToBuy,position,Quaternion.identity);
             GameManager.instance.SpendGold(stats.getPurchaseCost());
             UiManager.instance.SetGoldText(GameManager.instance.GetGold().ToString());
+            AudioManager.instance.PlaySoundClip(stats.getConstructionSound(),.5f);
             this.gameObject.SetActive(false);
         }
    }

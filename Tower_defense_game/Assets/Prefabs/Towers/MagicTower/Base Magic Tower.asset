@@ -17,3 +17,4 @@ MonoBehaviour:
   purchaseCost: 100
   towerSprite: {fileID: 21300000, guid: 6372d796b313f164a93f5f1f7d0372e9, type: 3}
   description: A Magic Tower That Shoots Projectiles
+  towerConstruction: {fileID: 8300000, guid: 319380c42e0a9ff46a78cb5d8493b4a3, type: 3}

@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] List<WaveConfigSO> wavesToSpawn;
     WaveConfigSO currentWave;
     int waveIndex = 0;
-    bool enemiesAlive = false;
+    [SerializeField] bool enemiesAlive = false;
     bool WaveIsSpawning = false;
 
     [SerializeField] bool allWavesSpawned = false;
@@ -41,6 +41,8 @@ public class EnemySpawner : MonoBehaviour
             StartWaveSpawns();
         }
         if(allWavesSpawned && !enemiesAlive){
+            Debug.Log("Won!");
+            SceneManager.instance.LoadEndingScene();
            
         }
 
