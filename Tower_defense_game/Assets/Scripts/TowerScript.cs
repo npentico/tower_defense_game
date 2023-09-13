@@ -15,6 +15,8 @@ public class TowerScript : MonoBehaviour
     [Header("Weapon and Projectile")]
     [SerializeField] GameObject projectilePrefab;
      [SerializeField] GameObject weapon;
+
+     [SerializeField] Animator myAnimator;
      
 
      float reloadTime;
@@ -36,27 +38,44 @@ public class TowerScript : MonoBehaviour
             if(!myTowerRange.IsEnemyInRange(currentEnemy.gameObject)){
                 currentEnemy = null;
             }
+           
         }
         if(enemiesInRange.Count > 0){
+
             if(currentEnemy == null){
                 currentEnemy = enemiesInRange[0].gameObject;
             }
         }
         if(currentEnemy){
             Debug.DrawLine(transform.position,currentEnemy.transform.position, Color.red);
+            if(myAnimator){
+                myAnimator.SetBool("Enemies In Range",true);
+                
+            }
+        }
+        else{
+            if(myAnimator){
+                myAnimator.SetBool("Enemies In Range",false);
+            }
         }
         timer -= Time.deltaTime;
         if(timer< 0 && currentEnemy){
-            FireTurretShot();
+          if(myAnimator){
+            myAnimator.SetTrigger("FireShot");
             timer = reloadTime;
+          }
         }
         
     }
 
-    void FireTurretShot(){
+    public void FireTurretShot(){
 
        GameObject projectile = Instantiate(projectilePrefab,weapon.transform.position, Quaternion.identity);  
        projectile.GetComponent<Projectile>().SetTarget(currentEnemy.transform.position); 
+       
+        if(myAnimator){
+           // myAnimator.ResetTrigger("FireShot");
+        }
 
     }
 
@@ -73,6 +92,11 @@ public class TowerScript : MonoBehaviour
     public TowerStats GetTowerStats(){
         return myStats;
     }
+
+    public GameObject GetCurrentTarget(){
+        return currentEnemy;
+    }
+    
 
 
 
