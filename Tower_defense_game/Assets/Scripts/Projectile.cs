@@ -12,10 +12,15 @@ public class Projectile : MonoBehaviour
 
     [SerializeField] int Damage = 5;
 
+    [SerializeField] AudioClip spawnSfx;
+
     Vector3 myScale;
 
     void Start(){
         myScale=transform.localScale;
+        if(spawnSfx){
+            AudioManager.instance.PlaySoundClip(spawnSfx,0.8f);
+        }
     }
     
     

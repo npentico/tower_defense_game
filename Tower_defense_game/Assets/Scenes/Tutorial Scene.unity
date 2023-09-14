@@ -1328,6 +1328,9 @@ MonoBehaviour:
   Health: 0
   MaxHealth: 50
   Gold: 100
+  baseTowerPrefabs:
+  - {fileID: 5933595706762739834, guid: 75e0a7d618935a045a503c244eb9f318, type: 3}
+  - {fileID: 3578621292371926538, guid: 699ee6fb7382d1f4d8730d6ebf8cf0d6, type: 3}
 --- !u!4 &1522202232
 Transform:
   m_ObjectHideFlags: 0

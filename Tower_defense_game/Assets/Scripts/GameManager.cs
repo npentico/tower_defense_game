@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Economy")]
     [SerializeField] int Gold = 100;
+
+    [SerializeField] List<GameObject> baseTowerPrefabs;
     
      public static GameManager instance;
     void Awake()

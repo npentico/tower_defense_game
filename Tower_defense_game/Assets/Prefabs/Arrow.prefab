@@ -102,6 +102,7 @@ MonoBehaviour:
   lifeSpan: 3
   projectileSpeed: 9
   Damage: 1
+  spawnSfx: {fileID: 8300000, guid: 04601ebd4572fa74999a58d40df816c8, type: 3}
 --- !u!50 &2247320745955156811
 Rigidbody2D:
   serializedVersion: 4
