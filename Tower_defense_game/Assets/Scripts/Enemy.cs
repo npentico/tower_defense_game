@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     float currentMoveSpeed;
     [SerializeField] float StutterOnHit = 0.2f;
     [SerializeField] int Health = 15;
-    [SerializeField] int MaxHealth =15;
+    [SerializeField] int MaxHealth = 15;
     bool GotHurt = false;
     [SerializeField] float ColorFlickerTime = 0.1f;
     [SerializeField] int DamageToPLayer = 1;
@@ -20,77 +20,86 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject myHealthBarCanvas;
     Animator myAnimator;
     Vector3 initialScale;
-    void Awake(){
-        initialScale= transform.localScale;
-        myAnimator= GetComponent<Animator>();
+    void Awake()
+    {
+        initialScale = transform.localScale;
+        myAnimator = GetComponent<Animator>();
         currentMoveSpeed = moveSpeed;
         Health = MaxHealth;
     }
 
-    public float getMoveSpeed(){
+    public float getMoveSpeed()
+    {
         return currentMoveSpeed;
 
     }
 
-    public Vector3 getInitialScale(){return initialScale;}
+    public Vector3 getInitialScale() { return initialScale; }
 
-    void OnTriggerEnter2D(Collider2D other){
-        if(other.tag == "Projectile"){
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Projectile")
+        {
             //take damage
-          
-            DoDamage(other.GetComponent<Projectile>().GetDamage());
-            Destroy(other.gameObject);
-        }
-        else if(other.tag == "Goal"){
-            Debug.Log("exddddd");
-            GameManager.instance.DoDamageToPlayer(DamageToPLayer);
-            UiManager.instance.UpdateHealthText();
+            Projectile bullet = other.GetComponent<Projectile>();
+            DoDamage(bullet.GetDamage());
+            bullet.ReducePierce();
         }
     }
 
-    void DoDamage(int dmg){
+    void DoDamage(int dmg)
+    {
         Health -= dmg;
         myAnimator.Play("Base Layer.Orc Hurt", 0, 0f);
-      //  StartCoroutine(StutterMoveSpeed());
+        //  StartCoroutine(StutterMoveSpeed());
         StartCoroutine(FlipColor());
 
-        if(Health <= 0){
+        if (Health <= 0)
+        {
             KillUnit();
         }
     }
-    void KillUnit(){
+    void KillUnit()
+    {
         GameManager.instance.AddGold(GoldValue);
         UiManager.instance.SetGoldText(GameManager.instance.GetGold().ToString());
         Destroy(gameObject);
     }
 
-    public int getMaxHealth(){
+    public int getMaxHealth()
+    {
         return MaxHealth;
     }
 
-    public int GetCurrentHealth(){
+    public int GetCurrentHealth()
+    {
         return Health;
     }
 
-    IEnumerator StutterMoveSpeed(){
+    IEnumerator StutterMoveSpeed()
+    {
         currentMoveSpeed = 0;
         yield return new WaitForSeconds(StutterOnHit);
         currentMoveSpeed = moveSpeed;
     }
-    IEnumerator FlipColor(){
+    IEnumerator FlipColor()
+    {
         SpriteRenderer mySprite = GetComponent<SpriteRenderer>();
-        mySprite.color = new Color(255,0,0);
+        mySprite.color = new Color(255, 0, 0);
         yield return new WaitForSeconds(ColorFlickerTime);
-        mySprite.color = new Color(255,255,255);   
+        mySprite.color = new Color(255, 255, 255);
     }
 
-    void OnMouseEnter(){
+    void OnMouseEnter()
+    {
         myHealthBarCanvas.SetActive(true);
     }
-    void OnMouseExit(){
+    void OnMouseExit()
+    {
         myHealthBarCanvas.SetActive(false);
     }
- public void DoDamageToPlayer(){
-    GameManager.instance.DoDamageToPlayer(DamageToPLayer);
- }
+    public void DoDamageToPlayer()
+    {
+        GameManager.instance.DoDamageToPlayer(DamageToPLayer);
+    }
 }
