@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 [CreateAssetMenu(menuName ="Tower Stats",fileName ="new Tower Stats")]
@@ -9,6 +10,8 @@ public class TowerStats : ScriptableObject
     [SerializeField] int damage;
     [SerializeField] int purchaseCost;
     [SerializeField] Sprite towerSprite;
+
+    [SerializeField] Image upgradeImage;
 
      [TextArea][SerializeField] string description;
 
@@ -24,6 +27,12 @@ public class TowerStats : ScriptableObject
      public AudioClip getConstructionSound(){
         return towerConstruction;
      }
+
+     public Image getUpgradeImage(){
+      return upgradeImage;
+     }
+
+     
 
 
 }

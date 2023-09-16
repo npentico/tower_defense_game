@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TowerScript : MonoBehaviour
 {
@@ -18,6 +19,12 @@ public class TowerScript : MonoBehaviour
 
     [SerializeField] Animator myAnimator;
 
+    [SerializeField] List<GameObject> upgrades;
+
+    [SerializeField] GameObject upgradeUiPrefab;
+
+    [SerializeField] Canvas upgradeCanvas;
+
 
     float reloadTime;
     float timer;
@@ -26,11 +33,14 @@ public class TowerScript : MonoBehaviour
         enemiesInRange = new List<GameObject>();
         reloadTime = myStats.getReloadTime();
         timer = reloadTime;
-
-
     }
 
     // Update is called once per frame
+    void Start()
+    {
+        InstantiateUpgradeCanvas();
+
+    }
     void Update()
 
     {
@@ -83,7 +93,14 @@ public class TowerScript : MonoBehaviour
     public void FireTurretShot()
     {
         GameObject projectile = Instantiate(projectilePrefab, weapon.transform.position, Quaternion.identity);
-        projectile.GetComponent<Projectile>().SetTarget(currentEnemy.transform.position);
+        if (currentEnemy)
+        {
+            projectile.GetComponent<Projectile>().SetTarget(currentEnemy.transform.position);
+        }
+        else
+        {
+            Destroy(projectile);
+        }
     }
 
     public void ShowRangeIndicator()
@@ -106,6 +123,35 @@ public class TowerScript : MonoBehaviour
     public GameObject GetCurrentTarget()
     {
         return currentEnemy;
+    }
+
+    void OnMouseDown()
+    {
+        Debug.Log("Clicked tower");
+        if (upgradeCanvas.gameObject.activeSelf)
+        {
+            upgradeCanvas.gameObject.SetActive(false);
+        }
+        else
+        {
+            upgradeCanvas.gameObject.SetActive(true);
+        }
+
+    }
+
+    void InstantiateUpgradeCanvas()
+    {
+        LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
+        Debug.Log(layoutGroup);
+        foreach (GameObject tower in upgrades)
+        {
+            GameObject uiElement = Instantiate(upgradeUiPrefab, layoutGroup.transform);
+            UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
+            TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
+            myButton.SetSpriteImage(newStats.getUpgradeImage());
+            myButton.SetPriceText(newStats.getPurchaseCost());
+            //set up ui for each upgrade
+        }
     }
 
 
