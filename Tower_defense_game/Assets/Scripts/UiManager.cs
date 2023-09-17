@@ -14,6 +14,8 @@ public class UiManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI healthText;
     [SerializeField] TextMeshProUGUI goldText;
 
+    public GameObject UiButtonPrefab;
+
 
 
     void Awake()

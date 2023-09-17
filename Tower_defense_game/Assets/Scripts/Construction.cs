@@ -32,6 +32,7 @@ public class Construction : MonoBehaviour
    void Awake()
    {
        m_Camera = Camera.main;
+       
    }
 
    //WIP TO TURN OFF BUTTONS WHEN YOU CLICK SOMETHING NOT THE TOWER OR THE UI ELEMENTS
@@ -63,10 +64,7 @@ public class Construction : MonoBehaviour
     void OnMouseDown()
    {
        ConstructorButtonClicked();
-      
-
-    //   UiManager.instance.ConstructorTowerWasClicked(gameObject);
-      // BuyTower(towersCanSpawnPrefabs[0]);
+    
    }
 
     //the hard commit will create the tower

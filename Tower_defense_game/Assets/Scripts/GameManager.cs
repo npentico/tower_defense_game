@@ -40,7 +40,6 @@ public class GameManager : MonoBehaviour
         {
             //YOU LOSE
             Debug.Log("Lose state");
-
         }
 
     }
@@ -48,7 +47,7 @@ public class GameManager : MonoBehaviour
 
     //spends gold if theres gold to spend and returns false otherwise
     public bool SpendGold(int goldToSpend){
-        if(goldToSpend - goldToSpend >=0){
+        if(Gold - goldToSpend >=0){
             Gold -= goldToSpend;
             return true;
         }
@@ -57,6 +56,7 @@ public class GameManager : MonoBehaviour
 
     public void AddGold(int goldToAdd){Gold+=goldToAdd;}
     public int GetGold() { return Gold;}    
+    
 
    
 }

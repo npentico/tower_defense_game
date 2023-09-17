@@ -21,11 +21,6 @@ public class TowerScript : MonoBehaviour
 
     [SerializeField] List<GameObject> upgrades;
 
-    [SerializeField] GameObject upgradeUiPrefab;
-
-    [SerializeField] Canvas upgradeCanvas;
-
-
     float reloadTime;
     float timer;
     void Awake()
@@ -36,11 +31,7 @@ public class TowerScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Start()
-    {
-        InstantiateUpgradeCanvas();
-
-    }
+    
     void Update()
 
     {
@@ -125,35 +116,11 @@ public class TowerScript : MonoBehaviour
         return currentEnemy;
     }
 
-    void OnMouseDown()
-    {
-        Debug.Log("Clicked tower");
-        if (upgradeCanvas.gameObject.activeSelf)
-        {
-            upgradeCanvas.gameObject.SetActive(false);
-        }
-        else
-        {
-            upgradeCanvas.gameObject.SetActive(true);
-        }
-
+    public List<GameObject> GetUpgrades(){
+        return upgrades;
     }
 
-    void InstantiateUpgradeCanvas()
-    {
-        LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
-        Debug.Log(layoutGroup);
-        foreach (GameObject tower in upgrades)
-        {
-            GameObject uiElement = Instantiate(upgradeUiPrefab, layoutGroup.transform);
-            UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
-            TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
-            myButton.SetSpriteImage(newStats.getUpgradeImage());
-            myButton.SetPriceText(newStats.getPurchaseCost());
-            //set up ui for each upgrade
-        }
-    }
-
+   
 
 
 
