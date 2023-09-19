@@ -17,10 +17,13 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float timeBetweenWaves = 5f;
     [SerializeField] float timer = 2f;
 
+    
+
     void Update()
     {
         //timer should only count down once wave finishes spawning now.
-        if(!WaveIsSpawning){
+        if(!GameManager.instance.gameStarted){return;}
+        if(!WaveIsSpawning ){
             timer -= Time.deltaTime;
         }
         UiManager.instance.SetTimerText(timer);
@@ -93,6 +96,8 @@ public class EnemySpawner : MonoBehaviour
     {
         return currentWave;
     }
+
+   
 
 
 

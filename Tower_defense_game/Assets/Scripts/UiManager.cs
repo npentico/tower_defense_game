@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,6 +13,9 @@ public class UiManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI goldText;
 
     public GameObject UiButtonPrefab;
+
+    [SerializeField] GameObject spawnNextWaveButton;
+
 
 
 
@@ -45,16 +46,6 @@ public class UiManager : MonoBehaviour
         TimerTextObj.text = time;
     }
 
-    public void ConstructorTowerWasClicked(GameObject constructor)
-    {
-        Construction myConstructorTower = constructor.GetComponent<Construction>();
-        Debug.Log(myConstructorTower.getTowers());
-    }
-
-    public void ConstructorUIButtonClicked(){
-        Debug.Log("CLICKED UI BUTTON");
-    }
-
     public void SetHealthText(string newHealthText){
         healthText.text = newHealthText;
     }
@@ -70,5 +61,17 @@ public class UiManager : MonoBehaviour
     public void UpdateHealthText(){
         healthText.text = GameManager.instance.GetHealth().ToString();
     }
+
+    public void UpdateGoldText(){
+        goldText.text = GameManager.instance.GetGold().ToString();
+    }
+
+    public void DisableSpawnWaveButton(){
+        spawnNextWaveButton.SetActive(false);
+    }
+    public void EnableSpawnWaveButton(){
+        spawnNextWaveButton.SetActive(true);
+    }
+   
     
 }

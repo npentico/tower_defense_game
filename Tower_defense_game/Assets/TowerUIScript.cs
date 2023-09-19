@@ -16,7 +16,7 @@ public class TowerUIScript : MonoBehaviour
 
     }
 
-     void OnMouseDown()
+    void OnMouseDown()
     {
         Debug.Log("Clicked tower");
         if (upgradeCanvas.gameObject.activeSelf)
@@ -32,28 +32,65 @@ public class TowerUIScript : MonoBehaviour
 
     void InstantiateUpgradeCanvas()
     {
+        List<GameObject> myPotentialTowers;
         LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
-        List<GameObject> myPotentialTowers = GetComponent<TowerScript>().GetUpgrades();
-        Debug.Log(layoutGroup);
-        foreach (GameObject tower in myPotentialTowers)
+        if (GetComponent<Construction>() != null)
+        {
+            //do constructor tile things
+            Debug.Log("In construction not upgrade");
+            myPotentialTowers = GameManager.instance.GetBaseTowers();
+            CreateUI(myPotentialTowers, layoutGroup);
+
+        }
+        else if (GetComponent<TowerScript>() != null)
+        {
+            //     LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
+            myPotentialTowers = GetComponent<TowerScript>().GetUpgrades();
+            CreateUI(myPotentialTowers, layoutGroup);
+
+
+        }
+        
+
+
+    }
+
+    void CreateUI(List<GameObject> myTowers, LayoutGroup layoutGroup)
+    {
+        foreach (GameObject tower in myTowers)
         {
             GameObject uiElement = Instantiate(UiButtonPrefab, layoutGroup.transform);
             UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
             TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
             myButton.SetSpriteImage(newStats.getUpgradeImage());
-            myButton.SetPriceText(newStats.getPurchaseCost());
+            myButton.SetPriceText(newStats.GetPurchaseCost());
             myButton.SetCallingTower(gameObject);
             myButton.SetTower(tower);
-            
+
             //set up ui for each upgrade
         }
     }
 
-    public void ReplaceTower(GameObject newTower){
-        GameObject myNewTower = Instantiate(newTower,transform.position,Quaternion.identity);
+    public void ReplaceTower(GameObject newTower)
+    {
+
+
+        if (GetComponent<Construction>() != null)
+        {
+            GetComponent<Construction>().BuyTower(newTower);
+        }
+        else
+        {
+            GameObject myNewTower = Instantiate(newTower, transform.position, Quaternion.identity);
+            GameManager.instance.SpendGold(newTower.GetComponent<TowerScript>().GetTowerStats().GetPurchaseCost());
+            UiManager.instance.UpdateGoldText();
+
+        }
+
+        gameObject.SetActive(false);
         Destroy(gameObject);
 
-        
+
     }
 
 }

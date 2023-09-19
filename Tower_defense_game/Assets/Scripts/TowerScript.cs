@@ -26,7 +26,7 @@ public class TowerScript : MonoBehaviour
     void Awake()
     {
         enemiesInRange = new List<GameObject>();
-        reloadTime = myStats.getReloadTime();
+        reloadTime = myStats.GetReloadTime();
         timer = reloadTime;
     }
 

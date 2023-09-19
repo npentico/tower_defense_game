@@ -96,6 +96,8 @@ GameObject:
   - component: {fileID: 2366879585635649464}
   - component: {fileID: 6495081748261228841}
   - component: {fileID: 3813604253426089938}
+  - component: {fileID: 5709774217652210892}
+  - component: {fileID: 4562923960473089694}
   m_Layer: 0
   m_Name: ArcherTower
   m_TagString: Untagged
@@ -112,7 +114,7 @@ Transform:
   m_GameObject: {fileID: 5933595706762739834}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.84, y: -1.58, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1673025228278848146}
@@ -193,8 +195,6 @@ MonoBehaviour:
   myAnimator: {fileID: 3072008505345644308}
   upgrades:
   - {fileID: 3387945272002045981, guid: de3821ac604261044bc11cd9386c6752, type: 3}
-  upgradeUiPrefab: {fileID: 5357377247086055415, guid: 52c26b70dc363e145856cb54ac7cadb9, type: 3}
-  upgradeCanvas: {fileID: 1321401342886232879}
 --- !u!61 &3813604253426089938
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,6 +240,48 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.5912037, y: 2.8515625}
   m_EdgeRadius: 0
+--- !u!114 &5709774217652210892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933595706762739834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcd9f4822f9611941bf2458eeaf756a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CanvasAndLayoutGroup: {fileID: 144070503230535414, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
+  UiButtonPrefab: {fileID: 5357377247086055415, guid: 52c26b70dc363e145856cb54ac7cadb9, type: 3}
+  upgradeCanvas: {fileID: 1321401342886232879}
+--- !u!50 &4562923960473089694
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933595706762739834}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &6588855454706883957
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +445,7 @@ Transform:
   m_GameObject: {fileID: 8875927786136328618}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7869837175478213235}
@@ -520,6 +562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpgradeCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 144070503230535414, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5641392459863420540, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -586,7 +632,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5641392459863420540, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.28
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5641392459863420540, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -603,6 +649,10 @@ PrefabInstance:
     - target: {fileID: 5641392459863420540, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912243122095341874, guid: fa55db53afb2b3d46a2c300ddcfa2592, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -51,7 +51,7 @@ public class UpgradeButtonScript : MonoBehaviour
     }
 
     public void ClickedButton(){
-        Debug.Log("clicked button");
+//        Debug.Log("clicked button");
         myTowerUI.ReplaceTower(towerOnButton);
     }
 }

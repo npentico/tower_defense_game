@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] List<GameObject> baseTowerPrefabs;
     
      public static GameManager instance;
+
+     public bool gameStarted = false;
     void Awake()
     {
         if (instance != null)
@@ -56,6 +58,15 @@ public class GameManager : MonoBehaviour
 
     public void AddGold(int goldToAdd){Gold+=goldToAdd;}
     public int GetGold() { return Gold;}    
+    public void StartGame(){
+        gameStarted = true;
+        UiManager.instance.EnableTimerText();
+        UiManager.instance.DisableSpawnWaveButton();
+    }
+
+    public List<GameObject> GetBaseTowers(){
+        return baseTowerPrefabs;
+    }
     
 
    

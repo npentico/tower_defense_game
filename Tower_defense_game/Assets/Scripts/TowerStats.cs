@@ -17,10 +17,10 @@ public class TowerStats : ScriptableObject
 
      [SerializeField] AudioClip towerConstruction;
 
-     public float getReloadTime(){return reloadTime;}
-     public float getDamage(){return damage;}   
-     public int getPurchaseCost(){return purchaseCost;}
-     public string getDescription(){return description;}  
+     public float GetReloadTime(){return reloadTime;}
+     public float GetDamage(){return damage;}   
+     public int GetPurchaseCost(){return purchaseCost;}
+     public string GetDescription(){return description;}  
 
      public Sprite GetSprite(){return towerSprite;}
 
