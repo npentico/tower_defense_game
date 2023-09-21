@@ -7,12 +7,15 @@ public class AudioManager : MonoBehaviour
     AudioSource myAudioSource;
 
     [SerializeField] AudioSource sfxPlayer;
-    void Awake(){
+    [SerializeField] AudioSource musicPlayer;
+    
+        void Awake(){
         if(instance!=null){
             Destroy(gameObject);
         }
         else{
             instance= this;
+            DontDestroyOnLoad(gameObject);
         }
 
         myAudioSource =  GetComponent<AudioSource>();
@@ -23,6 +26,13 @@ public class AudioManager : MonoBehaviour
    }
 
    public void PlaySFX(AudioClip clip, float volume){
-        sfxPlayer.PlayOneShot(clip,volume);
+        sfxPlayer.PlayOneShot(clip);
+   }
+
+   public void UpdateMusicVolume(float volume){
+        musicPlayer.volume = volume;
+   }
+   public void UpdateSFXVolume(float volume){
+        sfxPlayer.volume = volume;
    }
 }
