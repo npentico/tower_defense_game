@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
@@ -25,11 +26,16 @@ public class Projectile : MonoBehaviour
         {
             AudioManager.instance.PlaySFX(spawnSfx, 0.8f);
         }
-         Vector3 diff = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-        diff.Normalize();
+
+        //turns projectile towards target
+        Vector3 diff = target - transform.position;
+       // diff.Normalize();
+
 
         float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
+      //  transform.rotation = Quaternion.Euler(0f, 0f, rot_z -90);
+      transform.rotation=Quaternion.AngleAxis(rot_z-120,Vector3.forward);
+         
 
     }
 
@@ -42,6 +48,7 @@ public class Projectile : MonoBehaviour
     {
         MoveProjectile();
         UpdateLife();
+        Debug.DrawRay(transform.position,Vector3.forward,Color.blue);
 
     }
     void DisableHitBox()
@@ -51,6 +58,7 @@ public class Projectile : MonoBehaviour
             GetComponent<PolygonCollider2D>().enabled = false;
         }
     }
+
     void UpdateLife()
     {
         lifeSpan -= Time.deltaTime;
@@ -70,7 +78,7 @@ public class Projectile : MonoBehaviour
             if(transform.position == target){
                 DisableHitBox();
             }
-            FlipProjectile();
+          
         }
 
 

@@ -73,6 +73,7 @@ public class TowerUIScript : MonoBehaviour
 
     public void ReplaceTower(GameObject newTower)
     {
+        Debug.Log("In replace tower");
 
 
         if (GetComponent<Construction>() != null)
