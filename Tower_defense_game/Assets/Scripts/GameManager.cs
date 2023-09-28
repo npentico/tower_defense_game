@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] List<GameObject> baseTowerPrefabs;
     
      public static GameManager instance;
+     List<GameObject> enemyList;
 
      public bool gameStarted = false;
     void Awake()
@@ -67,6 +69,11 @@ public class GameManager : MonoBehaviour
     public List<GameObject> GetBaseTowers(){
         return baseTowerPrefabs;
     }
+
+    public void AddEnemyToList(GameObject enemy){
+        enemyList.Add(enemy);
+    }
+    
     
 
    

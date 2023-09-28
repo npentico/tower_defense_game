@@ -7,9 +7,8 @@ public class TowerUIScript : MonoBehaviour
 {
     [SerializeField] GameObject CanvasAndLayoutGroup;
     [SerializeField] GameObject UiButtonPrefab;
-    [SerializeField] Canvas upgradeCanvas;
+    GameObject upgradeCanvas;
 
-    List<GameObject> potentialUpgrades;
     void Start()
     {
         InstantiateUpgradeCanvas();
@@ -21,19 +20,24 @@ public class TowerUIScript : MonoBehaviour
         Debug.Log("Clicked tower");
         if (upgradeCanvas.gameObject.activeSelf)
         {
-            upgradeCanvas.gameObject.SetActive(false);
+            upgradeCanvas.SetActive(false);
         }
         else
         {
-            upgradeCanvas.gameObject.SetActive(true);
+            upgradeCanvas.SetActive(true);
         }
 
     }
 
     void InstantiateUpgradeCanvas()
     {
+        Vector3 canvasPosition = transform.position;
+        canvasPosition.y += 0.6f;
+        upgradeCanvas = Instantiate(CanvasAndLayoutGroup,canvasPosition,Quaternion.identity);
         List<GameObject> myPotentialTowers;
         LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
+     //           LayoutGroup layoutGroup = testUpgradeCanvas.GetComponentInChildren<LayoutGroup>();
+
         if (GetComponent<Construction>() != null)
         {
             //do constructor tile things
@@ -89,7 +93,9 @@ public class TowerUIScript : MonoBehaviour
         }
 
         gameObject.SetActive(false);
-        Destroy(gameObject);
+         Destroy(upgradeCanvas);
+        Destroy(transform.parent.gameObject);
+       
 
 
     }

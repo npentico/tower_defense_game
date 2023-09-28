@@ -28,6 +28,7 @@ public class TowerScript : MonoBehaviour
         enemiesInRange = new List<GameObject>();
         reloadTime = myStats.GetReloadTime();
         timer = reloadTime;
+        
     }
 
     // Update is called once per frame
@@ -48,6 +49,7 @@ public class TowerScript : MonoBehaviour
     {
         if (myAnimator)
         {
+           
             myAnimator.SetTrigger("FireShot");
             timer = reloadTime;
         }
@@ -56,6 +58,7 @@ public class TowerScript : MonoBehaviour
     {
         //get the list of enemies in range
         enemiesInRange = myTowerRange.getEnemiesInRange();
+        
         //if there is a current enemy but its not in range null it out
         if (currentEnemy != null)
         {

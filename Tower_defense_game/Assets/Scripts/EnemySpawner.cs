@@ -8,6 +8,7 @@ public class EnemySpawner : MonoBehaviour
     WaveConfigSO currentWave;
     int waveIndex = 0;
     [SerializeField] bool enemiesAlive = false;
+    
     bool WaveIsSpawning = false;
 
     [SerializeField] bool allWavesSpawned = false;
