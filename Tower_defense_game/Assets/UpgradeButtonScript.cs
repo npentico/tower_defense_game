@@ -8,7 +8,7 @@ public class UpgradeButtonScript : MonoBehaviour
     TowerScript myTower;
     TowerUIScript myTowerUI;
 
-    GameObject towerOnButton;
+    [SerializeField]GameObject towerOnButton;
 
     [SerializeField] int purchaseCost;
 

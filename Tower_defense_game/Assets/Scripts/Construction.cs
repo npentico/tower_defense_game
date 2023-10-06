@@ -25,7 +25,7 @@ public class Construction : MonoBehaviour
 
 
    public void BuyTower(GameObject towerToBuy){
-    TowerStats stats = towerToBuy.GetComponent<TowerScript>().GetTowerStats();
+    TowerStats stats = towerToBuy.GetComponentInChildren<TowerScript>().GetTowerStats();
         if(GameManager.instance.GetGold()>= stats.GetPurchaseCost()){
             Vector3 position = transform.position;
             position.y += yOffset;

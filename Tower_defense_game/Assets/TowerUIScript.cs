@@ -43,6 +43,8 @@ public class TowerUIScript : MonoBehaviour
             //do constructor tile things
             Debug.Log("In construction not upgrade");
             myPotentialTowers = GameManager.instance.GetBaseTowers();
+            Debug.Log(myPotentialTowers);
+            Debug.Log(layoutGroup);
             CreateUI(myPotentialTowers, layoutGroup);
 
         }
@@ -63,9 +65,11 @@ public class TowerUIScript : MonoBehaviour
     {
         foreach (GameObject tower in myTowers)
         {
+            Debug.Log(tower);
             GameObject uiElement = Instantiate(UiButtonPrefab, layoutGroup.transform);
             UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
-            TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
+            TowerStats newStats = tower.GetComponentInChildren<TowerScript>().GetTowerStats();
+            Debug.Log(newStats);
             myButton.SetSpriteImage(newStats.getUpgradeImage());
             myButton.SetPriceText(newStats.GetPurchaseCost());
             myButton.SetCallingTower(gameObject);
@@ -87,14 +91,15 @@ public class TowerUIScript : MonoBehaviour
         else
         {
             GameObject myNewTower = Instantiate(newTower, transform.position, Quaternion.identity);
-            GameManager.instance.SpendGold(newTower.GetComponent<TowerScript>().GetTowerStats().GetPurchaseCost());
+            GameManager.instance.SpendGold(newTower.GetComponentInChildren<TowerScript>().GetTowerStats().GetPurchaseCost());
             UiManager.instance.UpdateGoldText();
 
         }
 
         gameObject.SetActive(false);
          Destroy(upgradeCanvas);
-        Destroy(transform.parent.gameObject);
+         Destroy(transform.parent.gameObject);
+        
        
 
 

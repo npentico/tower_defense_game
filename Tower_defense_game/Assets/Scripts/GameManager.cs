@@ -67,6 +67,7 @@ public class GameManager : MonoBehaviour
     }
 
     public List<GameObject> GetBaseTowers(){
+        Debug.Log(baseTowerPrefabs[0]);
         return baseTowerPrefabs;
     }
 
