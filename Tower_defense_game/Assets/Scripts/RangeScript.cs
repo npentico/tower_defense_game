@@ -34,7 +34,5 @@ public class RangeScript : MonoBehaviour
     }
    
   }
-  void OnMouseDown(){
-    Debug.Log("CLICKED RANGE");
-  }
+ 
 }

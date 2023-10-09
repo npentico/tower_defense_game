@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class TowerUIScript : MonoBehaviour
+public class TowerUIScript : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] GameObject CanvasAndLayoutGroup;
     [SerializeField] GameObject UiButtonPrefab;
@@ -14,37 +15,51 @@ public class TowerUIScript : MonoBehaviour
         InstantiateUpgradeCanvas();
 
     }
-
-    void OnMouseDown()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("Clicked tower");
-        if (upgradeCanvas.gameObject.activeSelf)
-        {
-            upgradeCanvas.SetActive(false);
-        }
-        else
-        {
-            upgradeCanvas.SetActive(true);
-        }
 
+        if (gameObject.layer != LayerMask.NameToLayer("Range"))
+        {
+            if (upgradeCanvas.gameObject.activeSelf)
+            {
+                upgradeCanvas.SetActive(false);
+            }
+            else
+            {
+                upgradeCanvas.SetActive(true);
+            }
+        }
     }
+
+    /*void OnMouseDown()
+   {
+       Debug.Log("Clicked tower");
+       if (upgradeCanvas.gameObject.activeSelf)
+       {
+           upgradeCanvas.SetActive(false);
+       }
+       else
+       {
+           upgradeCanvas.SetActive(true);
+       }
+
+   }*/
 
     void InstantiateUpgradeCanvas()
     {
         Vector3 canvasPosition = transform.position;
         canvasPosition.y += 0.6f;
-        upgradeCanvas = Instantiate(CanvasAndLayoutGroup,canvasPosition,Quaternion.identity);
+        upgradeCanvas = Instantiate(CanvasAndLayoutGroup, canvasPosition, Quaternion.identity);
         List<GameObject> myPotentialTowers;
         LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
-     //           LayoutGroup layoutGroup = testUpgradeCanvas.GetComponentInChildren<LayoutGroup>();
+        //           LayoutGroup layoutGroup = testUpgradeCanvas.GetComponentInChildren<LayoutGroup>();
 
         if (GetComponent<Construction>() != null)
         {
             //do constructor tile things
             Debug.Log("In construction not upgrade");
             myPotentialTowers = GameManager.instance.GetBaseTowers();
-            Debug.Log(myPotentialTowers);
-            Debug.Log(layoutGroup);
+            
             CreateUI(myPotentialTowers, layoutGroup);
 
         }
@@ -52,11 +67,12 @@ public class TowerUIScript : MonoBehaviour
         {
             //     LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
             myPotentialTowers = GetComponent<TowerScript>().GetUpgrades();
+            Debug.Log(myPotentialTowers + "IN TOWER UPGRADES");
             CreateUI(myPotentialTowers, layoutGroup);
 
 
         }
-        
+
 
 
     }
@@ -65,11 +81,12 @@ public class TowerUIScript : MonoBehaviour
     {
         foreach (GameObject tower in myTowers)
         {
-            Debug.Log(tower);
+        
             GameObject uiElement = Instantiate(UiButtonPrefab, layoutGroup.transform);
             UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
-            TowerStats newStats = tower.GetComponentInChildren<TowerScript>().GetTowerStats();
+            TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
             Debug.Log(newStats);
+            
             myButton.SetSpriteImage(newStats.getUpgradeImage());
             myButton.SetPriceText(newStats.GetPurchaseCost());
             myButton.SetCallingTower(gameObject);
@@ -91,16 +108,16 @@ public class TowerUIScript : MonoBehaviour
         else
         {
             GameObject myNewTower = Instantiate(newTower, transform.position, Quaternion.identity);
-            GameManager.instance.SpendGold(newTower.GetComponentInChildren<TowerScript>().GetTowerStats().GetPurchaseCost());
+            GameManager.instance.SpendGold(newTower.GetComponent<TowerScript>().GetTowerStats().GetPurchaseCost());
             UiManager.instance.UpdateGoldText();
 
         }
 
         gameObject.SetActive(false);
-         Destroy(upgradeCanvas);
-         Destroy(transform.parent.gameObject);
-        
-       
+        Destroy(upgradeCanvas);
+        Destroy(transform.gameObject);
+
+
 
 
     }
