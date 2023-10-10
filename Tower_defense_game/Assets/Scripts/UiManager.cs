@@ -12,9 +12,16 @@ public class UiManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI healthText;
     [SerializeField] TextMeshProUGUI goldText;
 
+    [Header("Health")]
+    [SerializeField] GameObject HealthObject;
+    [SerializeField] GameObject HealthLossPrefab;
+    [SerializeField] float HealthOffset = -30;
+
     public GameObject UiButtonPrefab;
 
     [SerializeField] GameObject spawnNextWaveButton;
+
+
 
 
 
@@ -34,6 +41,7 @@ public class UiManager : MonoBehaviour
     void Start(){
         SetGoldText(GameManager.instance.GetGold().ToString());
         SetHealthText(GameManager.instance.GetHealth().ToString());
+        
     }
 
     public void SetTimerText(float time)
@@ -71,6 +79,16 @@ public class UiManager : MonoBehaviour
     }
     public void EnableSpawnWaveButton(){
         spawnNextWaveButton.SetActive(true);
+    }
+
+    public void SpawnHealthChangePrefab(int healthChange){
+        GameObject newHpObj =Instantiate(HealthLossPrefab,HealthObject.transform);
+        Vector3 pos = newHpObj.GetComponent<RectTransform>().position;
+        pos.y += HealthOffset;
+        pos.x += HealthOffset *-1 /3;
+        newHpObj.GetComponent<RectTransform>().position= pos;
+        newHpObj.GetComponent<HealthLossUIScript>().SetHealthLossText(healthChange);
+       
     }
    
     

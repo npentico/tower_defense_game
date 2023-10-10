@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] int MaxHealth = 15;
     bool GotHurt = false;
     [SerializeField] float ColorFlickerTime = 0.1f;
-    [SerializeField] int DamageToPLayer = 1;
+    [SerializeField] int DamageToPlayer = 1;
 
     [SerializeField] int GoldValue = 1;
 
@@ -100,6 +100,8 @@ public class Enemy : MonoBehaviour
     }
     public void DoDamageToPlayer()
     {
-        GameManager.instance.DoDamageToPlayer(DamageToPLayer);
+        GameManager.instance.DoDamageToPlayer(DamageToPlayer);
+        UiManager.instance.SpawnHealthChangePrefab(DamageToPlayer * -1);
     }
+
 }

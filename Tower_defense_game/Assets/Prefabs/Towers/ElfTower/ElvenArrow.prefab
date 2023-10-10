@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4573715856111204009}
   - component: {fileID: 1241113610405406570}
-  - component: {fileID: -6563148622481730551}
   - component: {fileID: 2247320745955156811}
   - component: {fileID: 4152877322998258587}
+  - component: {fileID: -1371128894564252864}
   m_Layer: 0
   m_Name: ElvenArrow
   m_TagString: Projectile
@@ -87,23 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-6563148622481730551
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6520545762143233592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce49889969c845143bf1478074aa5f23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lifeSpan: 1.5
-  projectileSpeed: 16
-  Damage: 2
-  spawnSfx: {fileID: 8300000, guid: 04601ebd4572fa74999a58d40df816c8, type: 3}
-  Pierce: 1
 --- !u!50 &2247320745955156811
 Rigidbody2D:
   serializedVersion: 4
@@ -196,3 +179,20 @@ PolygonCollider2D:
       - {x: 0.9714375, y: -0.6594831}
       - {x: 0.9714375, y: -0.42518058}
   m_UseDelaunayMesh: 0
+--- !u!114 &-1371128894564252864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6520545762143233592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed11a9dbd012e114c84fe46dc60f2a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeSpan: 1.5
+  projectileSpeed: 16
+  Damage: 1
+  spawnSfx: {fileID: 8300000, guid: 04601ebd4572fa74999a58d40df816c8, type: 3}
+  Pierce: 1

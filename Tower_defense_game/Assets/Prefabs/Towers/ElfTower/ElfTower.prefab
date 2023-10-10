@@ -456,7 +456,7 @@ MonoBehaviour:
   myStats: {fileID: 11400000, guid: 15a046c1581bf894f82dafca2fa55dc2, type: 2}
   myTowerRange: {fileID: 7434162661599467383}
   currentEnemy: {fileID: 0}
-  projectilePrefab: {fileID: 6520545762143233592, guid: 463deb3b99c27564fb82e71dbcd30c0d, type: 3}
+  projectilePrefab: {fileID: 6520545762143233592, guid: 43c358413e3ca104881a5db2e75ddab4, type: 3}
   weapon: {fileID: 2401620973911768116}
   myAnimator: {fileID: 8149550217705432058}
   upgrades: []

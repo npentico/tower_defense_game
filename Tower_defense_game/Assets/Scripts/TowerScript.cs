@@ -88,7 +88,7 @@ public class TowerScript : MonoBehaviour
         GameObject projectile = Instantiate(projectilePrefab, weapon.transform.position, Quaternion.identity);
         if (currentEnemy)
         {
-            projectile.GetComponent<Projectile>().SetTarget(currentEnemy.transform.position);
+            projectile.GetComponent<Projectile>().SetTarget(currentEnemy);
         }
         else
         {

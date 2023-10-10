@@ -18,6 +18,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float timeBetweenWaves = 5f;
     [SerializeField] float timer = 2f;
 
+    public AudioClip WaveStartSound;
+
     
 
     void Update()
@@ -57,6 +59,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if (waveIndex < wavesToSpawn.Count)
         {
+            AudioManager.instance.PlaySFX(WaveStartSound);
             StartCoroutine(SpawnWave());
         }
     }

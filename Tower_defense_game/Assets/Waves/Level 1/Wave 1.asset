@@ -18,6 +18,6 @@ MonoBehaviour:
   - {fileID: 6540029811742961813, guid: d69f1cc70730f274d946a7c190e842b8, type: 3}
   - {fileID: 6540029811742961813, guid: d69f1cc70730f274d946a7c190e842b8, type: 3}
   timeBetweenEnemySpawns: 2
-  spawnTimeVariance: 1
-  minimumSpawnTime: 1.5
+  spawnTimeVariance: 0.75
+  minimumSpawnTime: 1
   WaveGoldValue: 100

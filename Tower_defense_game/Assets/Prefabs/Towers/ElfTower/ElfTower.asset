@@ -17,5 +17,5 @@ MonoBehaviour:
   purchaseCost: 180
   towerSprite: {fileID: 167389380, guid: 8ae195b4ffb8e6f438dfe3d10702235e, type: 3}
   upgradeImage: {fileID: 0}
-  description: A Tower of Eleven Archers they shoot very far away
+  description: Elven archers rarely miss and are experts with the bow
   towerConstruction: {fileID: 8300000, guid: 319380c42e0a9ff46a78cb5d8493b4a3, type: 3}
