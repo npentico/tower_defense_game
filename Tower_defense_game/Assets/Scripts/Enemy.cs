@@ -62,7 +62,7 @@ public class Enemy : MonoBehaviour
     void KillUnit()
     {
         GameManager.instance.AddGold(GoldValue);
-        UiManager.instance.SetGoldText(GameManager.instance.GetGold().ToString());
+        EventManager.instance.ChangeGold(GoldValue);
         Destroy(gameObject);
     }
 
@@ -101,7 +101,12 @@ public class Enemy : MonoBehaviour
     public void DoDamageToPlayer()
     {
         GameManager.instance.DoDamageToPlayer(DamageToPlayer);
-        UiManager.instance.SpawnHealthChangePrefab(DamageToPlayer * -1);
+        
+    }
+
+    public int GetDamage(){
+        return DamageToPlayer;
+
     }
 
 }

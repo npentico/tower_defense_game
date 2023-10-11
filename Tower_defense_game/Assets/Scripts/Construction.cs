@@ -9,36 +9,41 @@ using UnityEngine.UI;
 
 public class Construction : MonoBehaviour
 {
-   [SerializeField] List<GameObject> towersCanSpawnPrefabs;
-   [SerializeField] float yOffset = 0f;
+    [SerializeField] List<GameObject> towersCanSpawnPrefabs;
+    [SerializeField] float yOffset = 0f;
 
-   [SerializeField] GameObject spriteCanvas;
+    [SerializeField] GameObject spriteCanvas;
 
-   [SerializeField] Image spriteImage;
+    [SerializeField] Image spriteImage;
 
-   [SerializeField]GameObject checkMark;
+    [SerializeField] GameObject checkMark;
 
-    public void ConstructorButtonClicked(){
-        
-    //   /  spriteCanvas.SetActive(!spriteCanvas.activeSelf);
+    public void ConstructorButtonClicked()
+    {
+
+        //   /  spriteCanvas.SetActive(!spriteCanvas.activeSelf);
     }
 
 
-   public void BuyTower(GameObject towerToBuy){
-    TowerStats stats = towerToBuy.GetComponentInChildren<TowerScript>().GetTowerStats();
-        if(GameManager.instance.GetGold()>= stats.GetPurchaseCost()){
+    public void BuyTower(GameObject towerToBuy)
+    {
+        TowerStats stats = towerToBuy.GetComponentInChildren<TowerScript>().GetTowerStats();
+        if (GameManager.instance.GetGold() >= stats.GetPurchaseCost())
+        {
             Vector3 position = transform.position;
             position.y += yOffset;
-           Instantiate(towerToBuy,position,Quaternion.identity);
-            GameManager.instance.SpendGold(stats.GetPurchaseCost());
-            UiManager.instance.SetGoldText(GameManager.instance.GetGold().ToString());
-            AudioManager.instance.PlaySoundClip(stats.getConstructionSound(),.5f);
-            
-        }
-   }
+            Instantiate(towerToBuy, position, Quaternion.identity);
+            int goldToSpend = stats.GetPurchaseCost();
+            GameManager.instance.SpendGold(goldToSpend);
+            EventManager.instance.ChangeGold(goldToSpend * -1);
+            AudioManager.instance.PlaySoundClip(stats.getConstructionSound(), .5f);
 
-   public List<GameObject> getTowers(){
-    return towersCanSpawnPrefabs;
-   }
-   
+        }
+    }
+
+    public List<GameObject> getTowers()
+    {
+        return towersCanSpawnPrefabs;
+    }
+
 }

@@ -57,9 +57,9 @@ public class TowerUIScript : MonoBehaviour, IPointerClickHandler
         if (GetComponent<Construction>() != null)
         {
             //do constructor tile things
-      //      Debug.Log("In construction not upgrade");
+            //      Debug.Log("In construction not upgrade");
             myPotentialTowers = GameManager.instance.GetBaseTowers();
-            
+
             CreateUI(myPotentialTowers, layoutGroup);
 
         }
@@ -67,7 +67,7 @@ public class TowerUIScript : MonoBehaviour, IPointerClickHandler
         {
             //     LayoutGroup layoutGroup = upgradeCanvas.GetComponentInChildren<LayoutGroup>();
             myPotentialTowers = GetComponent<TowerScript>().GetUpgrades();
-       //     Debug.Log(myPotentialTowers + "IN TOWER UPGRADES");
+            //     Debug.Log(myPotentialTowers + "IN TOWER UPGRADES");
             CreateUI(myPotentialTowers, layoutGroup);
 
 
@@ -81,12 +81,12 @@ public class TowerUIScript : MonoBehaviour, IPointerClickHandler
     {
         foreach (GameObject tower in myTowers)
         {
-        
+
             GameObject uiElement = Instantiate(UiButtonPrefab, layoutGroup.transform);
             UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
             TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
-//            Debug.Log(newStats);
-            
+            //            Debug.Log(newStats);
+
             myButton.SetSpriteImage(newStats.getUpgradeImage());
             myButton.SetPriceText(newStats.GetPurchaseCost());
             myButton.SetCallingTower(gameObject);
@@ -98,7 +98,7 @@ public class TowerUIScript : MonoBehaviour, IPointerClickHandler
 
     public void ReplaceTower(GameObject newTower)
     {
-      //  Debug.Log("In replace tower");
+        //  Debug.Log("In replace tower");
 
 
         if (GetComponent<Construction>() != null)
@@ -108,9 +108,9 @@ public class TowerUIScript : MonoBehaviour, IPointerClickHandler
         else
         {
             GameObject myNewTower = Instantiate(newTower, transform.position, Quaternion.identity);
-            GameManager.instance.SpendGold(newTower.GetComponent<TowerScript>().GetTowerStats().GetPurchaseCost());
-            UiManager.instance.UpdateGoldText();
-
+            int goldToSpend = newTower.GetComponent<TowerScript>().GetTowerStats().GetPurchaseCost();
+            GameManager.instance.SpendGold(goldToSpend);
+            EventManager.instance.ChangeGold(goldToSpend * -1);
         }
 
         gameObject.SetActive(false);
