@@ -20,6 +20,17 @@ public class EnemySpawner : MonoBehaviour
 
     public AudioClip WaveStartSound;
 
+    public static EnemySpawner instance;
+
+    void Awake(){
+        if(instance!=null){
+            Destroy(gameObject);
+        }
+        else{
+            instance = this;
+        }
+    }
+
     
 
     void Update()

@@ -14,7 +14,7 @@ public class PathFinder : MonoBehaviour
     void Start(){
         
         waypoints= waveConfig.GetWaypoints();
-        transform.position = waypoints[waypointIndex].position;
+      //  transform.position = waypoints[waypointIndex].position;
 
         unit = GetComponent<Enemy>();
       
@@ -67,6 +67,19 @@ public class PathFinder : MonoBehaviour
     public void SetWaveConfig(WaveConfigSO currentWave){
         waveConfig=currentWave;
 
+    }
+
+    public WaveConfigSO GetWaveConfig(){
+        return waveConfig;
+    }
+
+// useful for summoning enemies partway down the path 
+    public void SetCurrentWayPointIndex(int indexToSet){
+        waypointIndex = indexToSet;
+    }
+
+    public int GetCurrentWayPointIndex(){
+        return waypointIndex;
     }
     
     
