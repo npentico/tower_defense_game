@@ -10,6 +10,9 @@ public class EventManager : MonoBehaviour
     public delegate void GoldChangeAction(int goldChange);
 
     public static event GoldChangeAction OnGoldChange;
+     public delegate void UnitDiedAction(GameObject unit);
+
+    public static event UnitDiedAction OnUnitDied;
 
     public static EventManager instance;
 
@@ -32,6 +35,15 @@ public class EventManager : MonoBehaviour
         if(OnGoldChange!=null){
             OnGoldChange(goldChangeValue);
         }
+    }
+
+    public void UnitDied(GameObject unit){
+        if(OnUnitDied!=null){
+            OnUnitDied(unit);
+            
+        }
+         Destroy(unit);
+       
     }
     
 }

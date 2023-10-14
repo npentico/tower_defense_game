@@ -1,4 +1,5 @@
 
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Summoner : MonoBehaviour
@@ -7,24 +8,34 @@ public class Summoner : MonoBehaviour
     
     float timer;
     RangeScript myRange;
+   [SerializeField] int enemiesDied = 0;
+
+    [SerializeField] int maxSummons = 3;
 
     [SerializeField] GameObject prefabToSummon;
 
     void Awake(){
         timer = summonTimerMax;
         myRange = GetComponentInChildren<RangeScript>();
+        EventManager.OnUnitDied +=UnitWasKilled;
+
+    }
+     void OnDisable()
+    {
+        EventManager.OnUnitDied -= UnitWasKilled;
+       
     }
 
     void Update(){
         timer-= Time.deltaTime;
-        if(timer < 0){
+        if(timer < 0 && enemiesDied > 0){
             SummonEnemies();
             timer = summonTimerMax;
         }
     }
 
     void SummonEnemies(){
-         for(int i=0; i < 3; i++){
+         for(int i=0; i < enemiesDied; i++){
             //spawn the enemy and give it the summoners place along the path
             Vector3 pos = transform.position;
             pos.x += Random.Range(-1.5f,1.5f);
@@ -36,6 +47,14 @@ public class Summoner : MonoBehaviour
             spawnedEnemy.transform.position= pos;
 
          }
+    }
+
+    void UnitWasKilled(GameObject unit){
+        if(myRange.IsEnemyInRange(unit)){
+            if(enemiesDied < maxSummons){
+                enemiesDied++;
+            }
+        }
     }
 
 

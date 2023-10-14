@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: -6563148622481730551}
   - component: {fileID: 2247320745955156811}
   - component: {fileID: 4152877322998258587}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CrossbowBolt
   m_TagString: Projectile
   m_Icon: {fileID: 0}

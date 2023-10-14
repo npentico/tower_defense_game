@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2247320745955156811}
   - component: {fileID: 4152877322998258587}
   - component: {fileID: -1371128894564252864}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ElvenArrow
   m_TagString: Projectile
   m_Icon: {fileID: 0}

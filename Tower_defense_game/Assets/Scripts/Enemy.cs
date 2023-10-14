@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour
     {
         GameManager.instance.AddGold(GoldValue);
         EventManager.instance.ChangeGold(GoldValue);
-        Destroy(gameObject);
+        EventManager.instance.UnitDied(gameObject);
     }
 
     public int getMaxHealth()
