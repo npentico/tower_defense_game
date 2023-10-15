@@ -9,6 +9,7 @@ TagManager:
   - Constructor
   - UiButton
   - Goal
+  - Summon
   layers:
   - Default
   - TransparentFX
@@ -23,7 +24,7 @@ TagManager:
   - Projectile
   - 
   - Enemies
-  - 
+  - Summons
   - 
   - Towers
   - 

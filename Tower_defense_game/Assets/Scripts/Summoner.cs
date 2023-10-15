@@ -47,10 +47,11 @@ public class Summoner : MonoBehaviour
             spawnedEnemy.transform.position= pos;
 
          }
+         enemiesDied = 0;
     }
 
     void UnitWasKilled(GameObject unit){
-        if(myRange.IsEnemyInRange(unit)){
+        if(myRange.IsEnemyInRange(unit) && unit.layer == LayerMask.NameToLayer("Enemies")){
             if(enemiesDied < maxSummons){
                 enemiesDied++;
             }

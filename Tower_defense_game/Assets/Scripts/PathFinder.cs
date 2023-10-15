@@ -6,7 +6,7 @@ public class PathFinder : MonoBehaviour
 {
     [SerializeField] WaveConfigSO waveConfig;
     Enemy unit;
-    
+    [SerializeField] float distanceTraveled = 0;
 
     List<Transform> waypoints;
     [SerializeField] int waypointIndex = 0;
@@ -29,6 +29,7 @@ public class PathFinder : MonoBehaviour
             Vector3 targetPosition = waypoints[waypointIndex].position;
            
             float delta = unit.getMoveSpeed() * Time.deltaTime;
+            distanceTraveled += delta;
 
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, delta);
            

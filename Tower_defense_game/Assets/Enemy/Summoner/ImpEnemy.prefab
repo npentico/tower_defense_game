@@ -126,10 +126,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f59e4078ed3019a4a8a4e41d4640a121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  summonTimerMax: 12
+  summonTimerMax: 8
   enemiesDied: 0
   maxSummons: 3
-  prefabToSummon: {fileID: 6540029811742961813, guid: d69f1cc70730f274d946a7c190e842b8, type: 3}
+  prefabToSummon: {fileID: 2774081184769533556, guid: fc03dede064c88148bd126e29475c4f8, type: 3}
 --- !u!114 &1342916178014380843
 MonoBehaviour:
   m_ObjectHideFlags: 0

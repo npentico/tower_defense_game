@@ -57,6 +57,10 @@ public class TowerScript : MonoBehaviour
     {
         //get the list of enemies in range
         enemiesInRange = myTowerRange.getEnemiesInRange();
+        foreach(GameObject enemy in enemiesInRange){
+            
+        }
+
         
         //if there is a current enemy but its not in range null it out
         if (currentEnemy != null)
