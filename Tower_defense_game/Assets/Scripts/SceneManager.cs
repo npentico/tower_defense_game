@@ -8,6 +8,8 @@ public class SceneManager : MonoBehaviour
     
     public static SceneManager instance;
 
+    public GameObject levelCanvas;
+
     void Awake(){
         if(instance!=null){
             Destroy(gameObject);
@@ -23,6 +25,11 @@ public class SceneManager : MonoBehaviour
 
     }
 
+    public void LoadLevel(int levelToLoad){
+        UnityEngine.SceneManagement.SceneManager.LoadScene(levelToLoad);
+
+    }
+
     public void LoadTutorialLevel(){
         LoadLevel("Tutorial Scene");
     }
@@ -33,6 +40,14 @@ public class SceneManager : MonoBehaviour
 
     public void LoadEndingScene(){
         LoadLevel("Ending Screen");
+    }
+
+    public void DisableLevelCanvas(){
+        levelCanvas.SetActive(false);
+    }
+
+    public void EnableLevelCanvas(){
+        levelCanvas.SetActive(true);
     }
 
 }
