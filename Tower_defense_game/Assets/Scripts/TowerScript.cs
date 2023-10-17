@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +9,9 @@ public class TowerScript : MonoBehaviour
     [SerializeField] RangeScript myTowerRange;
     List<GameObject> enemiesInRange;
 
+    public bool targetFirst = true;
     [Header("Current Target")]
+
 
     [SerializeField] GameObject currentEnemy = null;
     [Header("Weapon and Projectile")]
@@ -36,11 +38,11 @@ public class TowerScript : MonoBehaviour
 
     {
         UpdateTargets();
+        
         timer -= Time.deltaTime;
         if (timer < 0 && currentEnemy)
         {
             FireProjectile();
-
         }
 
     }
@@ -57,10 +59,7 @@ public class TowerScript : MonoBehaviour
     {
         //get the list of enemies in range
         enemiesInRange = myTowerRange.getEnemiesInRange();
-        foreach(GameObject enemy in enemiesInRange){
-            
-        }
-
+        SortTargets();
         
         //if there is a current enemy but its not in range null it out
         if (currentEnemy != null)
@@ -124,6 +123,46 @@ public class TowerScript : MonoBehaviour
 
     public List<GameObject> GetUpgrades(){
         return upgrades;
+    }
+
+    void SortTargets(){
+        if(enemiesInRange.Count<=1){
+            return;
+        }
+        if(targetFirst){
+            enemiesInRange.Sort(GetFirstEnemySort);
+        }
+        else{
+            enemiesInRange.Sort(GetLastEnemySort);
+        }
+        Debug.Log("test");
+        
+       
+    }
+
+   
+
+   int GetLastEnemySort(GameObject a, GameObject b){
+        float aDistance = a.GetComponent<PathFinder>().GetDistance();
+        float bDistance = b.GetComponent<PathFinder>().GetDistance();
+        if(aDistance< bDistance){
+            return -1;
+        }
+        else if(aDistance > bDistance){
+            return 1;
+        }
+        else return 0;
+    }
+     int GetFirstEnemySort(GameObject a, GameObject b){
+        float aDistance = a.GetComponent<PathFinder>().GetDistance();
+        float bDistance = b.GetComponent<PathFinder>().GetDistance();
+        if(aDistance > bDistance){
+            return -1;
+        }
+        else if(aDistance < bDistance){
+            return 1;
+        }
+        else return 0;
     }
 
    

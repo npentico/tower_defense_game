@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeSpan: 1.5
-  projectileSpeed: 13
+  projectileSpeed: 14
   Damage: 2
   spawnSfx: {fileID: 8300000, guid: 04601ebd4572fa74999a58d40df816c8, type: 3}
   Pierce: 1

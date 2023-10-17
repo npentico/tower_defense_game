@@ -82,6 +82,12 @@ public class PathFinder : MonoBehaviour
     public int GetCurrentWayPointIndex(){
         return waypointIndex;
     }
+
+    public float GetDistance(){
+        return distanceTraveled;
+    }
+
+   
     
     
     
