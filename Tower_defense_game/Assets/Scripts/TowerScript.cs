@@ -52,8 +52,12 @@ public class TowerScript : MonoBehaviour
         {
            
             myAnimator.SetTrigger("FireShot");
-            timer = reloadTime;
+          
         }
+        else{
+            FireTurretShot();
+        }
+          timer = reloadTime;
     }
     void UpdateTargets()
     {
@@ -89,6 +93,7 @@ public class TowerScript : MonoBehaviour
     public void FireTurretShot()
     {
         GameObject projectile = Instantiate(projectilePrefab, weapon.transform.position, Quaternion.identity);
+        projectile.GetComponent<Projectile>().SetDamage(myStats.GetDamage());
         if (currentEnemy)
         {
             projectile.GetComponent<Projectile>().SetTarget(currentEnemy);
@@ -135,8 +140,6 @@ public class TowerScript : MonoBehaviour
         else{
             enemiesInRange.Sort(GetLastEnemySort);
         }
-        Debug.Log("test");
-        
        
     }
 
@@ -153,7 +156,7 @@ public class TowerScript : MonoBehaviour
         }
         else return 0;
     }
-     int GetFirstEnemySort(GameObject a, GameObject b){
+    int GetFirstEnemySort(GameObject a, GameObject b){
         float aDistance = a.GetComponent<PathFinder>().GetDistance();
         float bDistance = b.GetComponent<PathFinder>().GetDistance();
         if(aDistance > bDistance){

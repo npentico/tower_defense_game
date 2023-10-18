@@ -123,6 +123,6 @@ public class Projectile : MonoBehaviour
         }
     }
 
-
+    public void SetDamage(int damageToSet) { Damage = damageToSet; }
 
 }

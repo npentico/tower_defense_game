@@ -11,14 +11,14 @@ public class TowerStats : ScriptableObject
     [SerializeField] int purchaseCost;
     [SerializeField] Sprite towerSprite;
 
-    [SerializeField] Image upgradeImage;
+    [SerializeField] Sprite upgradeImage;
 
      [TextArea][SerializeField] string description;
 
      [SerializeField] AudioClip towerConstruction;
 
      public float GetReloadTime(){return reloadTime;}
-     public float GetDamage(){return damage;}   
+     public int GetDamage(){return damage;}   
      public int GetPurchaseCost(){return purchaseCost;}
      public string GetDescription(){return description;}  
 
@@ -28,7 +28,7 @@ public class TowerStats : ScriptableObject
         return towerConstruction;
      }
 
-     public Image getUpgradeImage(){
+     public Sprite getUpgradeImage(){
       return upgradeImage;
      }
 

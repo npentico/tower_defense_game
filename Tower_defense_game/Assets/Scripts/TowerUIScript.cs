@@ -85,9 +85,10 @@ public class TowerUIScript : MonoBehaviour, IPointerClickHandler
             GameObject uiElement = Instantiate(UiButtonPrefab, layoutGroup.transform);
             UpgradeButtonScript myButton = uiElement.GetComponent<UpgradeButtonScript>();
             TowerStats newStats = tower.GetComponent<TowerScript>().GetTowerStats();
-            //            Debug.Log(newStats);
+            Sprite newPic = newStats.getUpgradeImage();
+            //Debug.Log(newPic);
 
-            myButton.SetSpriteImage(newStats.getUpgradeImage());
+            myButton.SetSpriteImage(newPic);
             myButton.SetPriceText(newStats.GetPurchaseCost());
             myButton.SetCallingTower(gameObject);
             myButton.SetTower(tower);

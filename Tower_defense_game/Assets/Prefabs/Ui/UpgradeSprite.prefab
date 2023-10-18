@@ -360,6 +360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 955f21d4ba5611b4b842959a12130bfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spriteImage: {fileID: 7714615680669267276}
+  towerOnButton: {fileID: 0}
+  purchaseCost: 0
   priceText: {fileID: 906561540916716507}
 --- !u!1 &8063948660157019197
 GameObject:

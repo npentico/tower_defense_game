@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class UpgradeButtonScript : MonoBehaviour
 {
-    Image spriteImage;
+   [SerializeField] Image spriteImage;
     TowerScript myTower;
     TowerUIScript myTowerUI;
 
@@ -27,8 +27,10 @@ public class UpgradeButtonScript : MonoBehaviour
     public void SetTower(GameObject tower){
         towerOnButton = tower;
     }
-    public void SetSpriteImage(Image spriteToSet){
-        spriteImage = spriteToSet;
+    public void SetSpriteImage(Sprite spriteToSet){
+        spriteImage = GetComponent<Image>();
+       
+       spriteImage.sprite = spriteToSet;
     }
 
     public void SetPriceText(string text){
